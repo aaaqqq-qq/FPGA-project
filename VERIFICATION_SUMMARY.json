@@ -1,0 +1,25 @@
+{
+  "schema": "topic2_anonymous_source_submission_v1",
+  "board": "Ti60F225I3-V4",
+  "clock_mhz": 100,
+  "python_ast_files": 182,
+  "python_ast_errors": [],
+  "efinity_design_files": 46,
+  "efinity_missing_sources": [],
+  "known_participant_identifier_findings": [],
+  "private_sessions_backups_and_executables_included": false,
+  "source_tree_functional_fixes": false,
+  "firmware_build": "PASS_BEFORE_USER_STOPPED_TESTING",
+  "hardware_recompile": "NOT_RUN",
+  "board_retest": "NOT_RUN",
+  "third_party_license_notices_preserved": true,
+  "firmware_ram_used_bytes": 1032944,
+  "workbench_initial_tests": {
+    "run": 499,
+    "failures": 3,
+    "errors": 8,
+    "skipped": 1,
+    "later_packaging_path_and_fixture_changes_retested": false
+  },
+  "testing_stopped_at_user_request": true
+}

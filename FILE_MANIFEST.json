@@ -1,0 +1,2865 @@
+{
+  "manifest_excludes_itself": true,
+  "files": [
+    {
+      "path": "ANONYMITY_REVIEW.json",
+      "bytes": 418,
+      "sha256": "63e54c66294863bc47f12c2f74cc6516df628f797cc3a7c4424cfe6a80920748"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4174,
+      "sha256": "9a158ef09a0fda78a9d9fa885c14e2d1f8754ef696fad1c5902fcb6c6b0dce40"
+    },
+    {
+      "path": "release/build_persist.py",
+      "bytes": 13199,
+      "sha256": "1206b3cbbca744d6fc7f7e0607b56c86dc133451fef9bb753707e9a72b24b2dd"
+    },
+    {
+      "path": "release/hardware_gate.py",
+      "bytes": 16104,
+      "sha256": "29d4c053205faa2cb3394b8023592ae7f2ad77784e6224b9bf0799ed9ff07dcd"
+    },
+    {
+      "path": "release/loader.c",
+      "bytes": 2023,
+      "sha256": "6e02e1e7a9a1b209f870c956c88af877b3975295f3bc1981b95b938d4b5af0a5"
+    },
+    {
+      "path": "release/loader_host.c",
+      "bytes": 4780,
+      "sha256": "dbb7bae4ee6cbab0b9db747764e44c5f3816b279e96eeb060ac72bffdfe4d6bc"
+    },
+    {
+      "path": "release/loader_platform.h",
+      "bytes": 389,
+      "sha256": "77c38755cc0d7778890475e74f0d2e0a313d9dce683dcde72478938e19ed37db"
+    },
+    {
+      "path": "release/platform_rv32.c",
+      "bytes": 2449,
+      "sha256": "dd2e7e8600e5c59f6c1ddbc9188eef7dad9de73395308367ee8bdeb3f6a58968"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/effects/plus16.png",
+      "bytes": 94,
+      "sha256": "7e7270745a309a75adbb5f09a74c3d34d1a61ad967c8e8d3cab42cbedf5aa3e8"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/effects/plus16_a.png",
+      "bytes": 121,
+      "sha256": "a70676abdf6ca45eaae11abc70695cecc0e634c4f9eafa8ad6d8bea87f77c794"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/effects/ring_cyan32.png",
+      "bytes": 111,
+      "sha256": "8e06592a80bd7849c916c7bfceb2d31c1c450cf623078897059601d10c571ff5"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/effects/ring_cyan32_a.png",
+      "bytes": 281,
+      "sha256": "c7db5cf34aac1a0dcef0dd0c48393541d0cf035bd8313065795799e84c97b6ec"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/effects/ring_cyan64.png",
+      "bytes": 183,
+      "sha256": "3721211784ef9de7636c48ce89f1a5b306d91c637060a803e94c143c6b5ee129"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/effects/ring_cyan64_a.png",
+      "bytes": 503,
+      "sha256": "14018dd7aa4a504b3a1912bb7136e71f21bd008fad4308147cdb594bcec15b83"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/effects/ring_gold32.png",
+      "bytes": 112,
+      "sha256": "dfcf4bbaccdf70676be76deb2c90678ec51a47199cfda0ae73868a0e331174d2"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/effects/ring_gold32_a.png",
+      "bytes": 281,
+      "sha256": "c7db5cf34aac1a0dcef0dd0c48393541d0cf035bd8313065795799e84c97b6ec"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/effects/ring_gold64.png",
+      "bytes": 184,
+      "sha256": "494a2942029f4fa2e7e50f185aeeb2e1293ae8d6fb46bf7398e16d2ab69e06a6"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/effects/ring_gold64_a.png",
+      "bytes": 503,
+      "sha256": "14018dd7aa4a504b3a1912bb7136e71f21bd008fad4308147cdb594bcec15b83"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/effects/ring_green32.png",
+      "bytes": 112,
+      "sha256": "82b49ce77480e2a98349358ea37455c994a8245245e129f3d55f97c9822d52d9"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/effects/ring_green32_a.png",
+      "bytes": 281,
+      "sha256": "c7db5cf34aac1a0dcef0dd0c48393541d0cf035bd8313065795799e84c97b6ec"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/effects/ring_rose32.png",
+      "bytes": 112,
+      "sha256": "4928c75e495d3a33e230ecf545840d7373cc4af3a2015db9c1e836c7a1d31af5"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/effects/ring_rose32_a.png",
+      "bytes": 281,
+      "sha256": "c7db5cf34aac1a0dcef0dd0c48393541d0cf035bd8313065795799e84c97b6ec"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/effects/ring_warn64.png",
+      "bytes": 185,
+      "sha256": "922cf930229fff5c4a9f54f3a05f1202bcea8213c2df039b27cef2c31ae836d7"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/effects/ring_warn64_a.png",
+      "bytes": 521,
+      "sha256": "d8933af01556d5b3eeebdcad25953ccaddb34614b2cfb19cb53ca05982cb3c9a"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/effects/star16.png",
+      "bytes": 94,
+      "sha256": "0c0bb973044b61ed0ec3f3dcfdb79e1c02229399d2b66cbc0a6faa89d66e5286"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/effects/star16_a.png",
+      "bytes": 163,
+      "sha256": "d4e83fd9d8bf67d951d983b528f885d7ffb45eaea6b4df2e49db7c01985e431b"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/effects/white_player0.png",
+      "bytes": 138,
+      "sha256": "1ffcefaa5da84c5a878015cd4d460a6a6036e37ba0a22f2b147da1f6fcc408b0"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/effects/white_player0_a.png",
+      "bytes": 731,
+      "sha256": "f38660bcd2efc2d24202232004fd2b948f189801050e7197df0b3ed3d44fdf15"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/effects/white_player1.png",
+      "bytes": 138,
+      "sha256": "1ffcefaa5da84c5a878015cd4d460a6a6036e37ba0a22f2b147da1f6fcc408b0"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/effects/white_player1_a.png",
+      "bytes": 747,
+      "sha256": "a893f03eb0d240ac972296758e56ffc016831e555464becf01c7a8842a5f412b"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/effects/white_player2.png",
+      "bytes": 138,
+      "sha256": "1ffcefaa5da84c5a878015cd4d460a6a6036e37ba0a22f2b147da1f6fcc408b0"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/effects/white_player2_a.png",
+      "bytes": 765,
+      "sha256": "613c8dee1ce16554bd7b090e198823d86c549e7281893a2f43fda2ed0b27c9e3"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/effects/white_player3.png",
+      "bytes": 138,
+      "sha256": "1ffcefaa5da84c5a878015cd4d460a6a6036e37ba0a22f2b147da1f6fcc408b0"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/effects/white_player3_a.png",
+      "bytes": 748,
+      "sha256": "817a35f1a527f3f4396a82e93476647aa89d348bef08abf3218f6beecd11135a"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/effects_manifest.json",
+      "bytes": 2600,
+      "sha256": "37964feda9731838c9d3f34cd8d9694df0830c0ec5875ccd7572883e2c77b525"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/original_enemies/fairy_blue0.png",
+      "bytes": 1165,
+      "sha256": "c4a4dff67b3231e70a2273431c70a326c756ffe801829a62f114b2a8180f4b03"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/original_enemies/fairy_blue1.png",
+      "bytes": 1208,
+      "sha256": "4ac07faed329a2cc1a79c573d189f8c5b4cde6653c4b8968758d7a93848037b7"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/original_enemies/fairy_blue2.png",
+      "bytes": 1082,
+      "sha256": "c3146e46a7f5fc1d5682c4f317d32cd18723d7f059c2e814ae946def090dd858"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/original_enemies/fairy_blue3.png",
+      "bytes": 1145,
+      "sha256": "cc6e906e6c2443f4850e8b1d18ae969efd128f343dadcb208af002dff3f128f9"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/original_enemies/fairy_contact_sheet.png",
+      "bytes": 3735,
+      "sha256": "c1a64773ee543a1bf4029e31d8984883b25aa3d415dec469191d59e0bbd73b12"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/original_enemies/fairy_pink0.png",
+      "bytes": 977,
+      "sha256": "cb89bda36709b2353428bcd28d5c7607bf3f696ac6b065a536edb595fe35e247"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/original_enemies/fairy_pink1.png",
+      "bytes": 1075,
+      "sha256": "1ce05ae21a4139008967ad3a6a18f9476cfd44ce97cf0c5d0c4d86c67462ae1f"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/original_enemies/fairy_pink2.png",
+      "bytes": 955,
+      "sha256": "75fadd536bc10bb8ea90afd31cecab44dde7d80faa1844ea347d23cad0ac75a1"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/original_enemies/fairy_pink3.png",
+      "bytes": 1007,
+      "sha256": "a01431a0933bf057417804e16f4800f07ddad378b07ea3b102bc024191842eb2"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/generated/original_enemies/manifest.json",
+      "bytes": 3575,
+      "sha256": "6912bd4d892ebf9fc176bfd67c89fbfc0db9a335b4caf99874e51e760403c26c"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/source/th06e_CM.DAT__etama3.png",
+      "bytes": 74441,
+      "sha256": "1da15b49fb259df8d1e22b1ad47d399bf7498b7cec535e59a2d9982c1a8a1a52"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/source/th06e_CM.DAT__etama3_a.png",
+      "bytes": 13156,
+      "sha256": "8b362461e7f9a5d126b2f30427c7c69e0812d1807b9df28517ef806f9a497a25"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/source/th06e_CM.DAT__player00.png",
+      "bytes": 34240,
+      "sha256": "03070a124433768d2b8878d295156ee1aaed3197d9a4b818aab3f57bccf5c696"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/source/th06e_CM.DAT__player00_a.png",
+      "bytes": 9914,
+      "sha256": "ef3d3a415eeca71fca4a2589bab801013dbe7836621f44f314d1d616074c05f4"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/source/th06e_ST.DAT__stg1enm2.png",
+      "bytes": 13384,
+      "sha256": "fbcbd7b13324b9161895a827aff3c14f1d7468eaa6cd60f2f3c67fcd2257fa49"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/source/th06e_ST.DAT__stg1enm2_a.png",
+      "bytes": 5810,
+      "sha256": "77c63a16a297d1fe7569060ebc3273e8eb21018c8d1c997a8cca0552100688d4"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/source/th06e_ST.DAT__stg2enm.png",
+      "bytes": 24355,
+      "sha256": "5504957cb831554d788df15f620c048939dc374f7d03492756edfb7e6b313ade"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/source/th06e_ST.DAT__stg2enm2.png",
+      "bytes": 11006,
+      "sha256": "736becc121219e374d607a38429549fb18bb24cfb4d5193bfd336f41885a8e51"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/source/th06e_ST.DAT__stg2enm2_a.png",
+      "bytes": 6790,
+      "sha256": "f20bbadc552c40378e2e4de295e5a0ce9e4e396241d777d779bd0497429416c0"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/source/th06e_ST.DAT__stg2enm_a.png",
+      "bytes": 13910,
+      "sha256": "c53d1b3ca260db717a9b7347fced4d135a45b95be61b7ed637b745ffdb9ac92f"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/source/th06e_ST.DAT__stg3enm.png",
+      "bytes": 34285,
+      "sha256": "6e07a4f7879bc274655f07c824bc7216357ca85ed54798c3f026d4eebe1dbef8"
+    },
+    {
+      "path": "release/projects/touhou_LAB/assets/source/th06e_ST.DAT__stg3enm_a.png",
+      "bytes": 17783,
+      "sha256": "13922973b1a067c5fc75d4dba198f95f81745f39196d9c321599a52fd81ce9de"
+    },
+    {
+      "path": "release/projects/touhou_LAB/docs/adv1_source.diff",
+      "bytes": 62291,
+      "sha256": "fa5efd5dd293fb79156f85a0c2f52880b3b946eb04661e9d4ba35e61f4f50890"
+    },
+    {
+      "path": "release/projects/touhou_LAB/docs/ADV_IMPLEMENTATION.md",
+      "bytes": 6592,
+      "sha256": "075d0968772bf1e7a6b3ab26a9132970128f63526a7600a82f076031a0ff8f6c"
+    },
+    {
+      "path": "release/projects/touhou_LAB/docs/adv_protocol.json",
+      "bytes": 9969,
+      "sha256": "f87b245e5cb33adc01939280cba0aac01f234f243b616f65c9b6d9ee163880a4"
+    },
+    {
+      "path": "release/projects/touhou_LAB/docs/BASELINE.md",
+      "bytes": 744,
+      "sha256": "e1ab75e2074c1b2ba1dba685d867a2e3e9acff22cf2eb86509a5b71878b08b07"
+    },
+    {
+      "path": "release/projects/touhou_LAB/docs/CHANGES.md",
+      "bytes": 16837,
+      "sha256": "ea61ec3f22b081fae78f1f4ded56d7ff95ac5dd6d5c9bc141610149823d564cc"
+    },
+    {
+      "path": "release/projects/touhou_LAB/docs/CONFIG.md",
+      "bytes": 5755,
+      "sha256": "e205aa62b8e17c068a9acbc21a03136e5c5be87cdd13b25628c6bd82d2be4e8a"
+    },
+    {
+      "path": "release/projects/touhou_LAB/docs/FREQUENCY_STUDY.md",
+      "bytes": 4275,
+      "sha256": "5718ed872cb493b988ee25163cd36586162a39f4cf762bc91c17ea9595997620"
+    },
+    {
+      "path": "release/projects/touhou_LAB/docs/game_load_protocol.md",
+      "bytes": 4280,
+      "sha256": "1cd7da5f8c99138fa90b0cf835ee34caba8aa33391234594a44cd7252efd6c55"
+    },
+    {
+      "path": "release/projects/touhou_LAB/docs/LAB1_PC_PROTOCOL.md",
+      "bytes": 4372,
+      "sha256": "914dd6193731e71d163d5da6507f101da3efc70aa10fb49db27c22a5d13c10dd"
+    },
+    {
+      "path": "release/projects/touhou_LAB/docs/LAB23_IMPLEMENTATION.md",
+      "bytes": 5633,
+      "sha256": "e3f8ce347edd25a6af75134509ec7087b97cec538b672cce3bb3b3ab3d3c0974"
+    },
+    {
+      "path": "release/projects/touhou_LAB/docs/labimg_protocol.json",
+      "bytes": 3361,
+      "sha256": "4ae810367455cad452b4c9e92f9fbe6344cfa9741b256d83691221a49bf06120"
+    },
+    {
+      "path": "release/projects/touhou_LAB/docs/labx_protocol.json",
+      "bytes": 6142,
+      "sha256": "1e559d8919598b9f439a5cee40ef132330a03ea06a6e2d04fccd9490e7e5f6a5"
+    },
+    {
+      "path": "release/projects/touhou_LAB/docs/phase_battle.diff",
+      "bytes": 650006,
+      "sha256": "ba48fa42f65d37fc7bcccfbc9417bd2d5feb84acad3f9b963f1d04fc0ab51049"
+    },
+    {
+      "path": "release/projects/touhou_LAB/docs/phase_battle_R6.diff",
+      "bytes": 517458,
+      "sha256": "7ebb187e6eec12590be86a23a284f9bf1402504cebeffe9335fefc799f4323c0"
+    },
+    {
+      "path": "release/projects/touhou_LAB/docs/phase_battle_R6p1.diff",
+      "bytes": 555345,
+      "sha256": "df65a9bbc0bf2939b34a2d180e6ee60d9452b0fb6ca8a25cb868adff19565cdc"
+    },
+    {
+      "path": "release/projects/touhou_LAB/docs/PIPE5_FIRMWARE.md",
+      "bytes": 6713,
+      "sha256": "e040e142fd9450d7f62b747fb02ac49ea86c39c019a30585dccf3d104f132023"
+    },
+    {
+      "path": "release/projects/touhou_LAB/docs/R3_OPTIMIZATION.md",
+      "bytes": 5219,
+      "sha256": "3babedb71b6850b6bcb3ad352dff7ad0dbfd667a18883308d730db5e5e8e2dcb"
+    },
+    {
+      "path": "release/projects/touhou_LAB/docs/R4_RELEASE.md",
+      "bytes": 16250,
+      "sha256": "8b7c965dec322151d362c6efec319c1f5211a286c12fc27c42effb1474cba1b8"
+    },
+    {
+      "path": "release/projects/touhou_LAB/docs/R6_RELEASE.md",
+      "bytes": 16736,
+      "sha256": "674de89ff548a3002d2d77c81992e54c0d7ed28f9e8e79e1fff99224b885f5d2"
+    },
+    {
+      "path": "release/projects/touhou_LAB/docs/R6_STABILITY_POLICY.md",
+      "bytes": 3695,
+      "sha256": "4388bb535d53b1dde628d66ae1ab081315af1d3d513327d39ed68e84874ccc9c"
+    },
+    {
+      "path": "release/projects/touhou_LAB/docs/R6p1_RELEASE.md",
+      "bytes": 11514,
+      "sha256": "29416ea3598ef24198ff1d449b54a722932740e3328d503d1426974b3dd40940"
+    },
+    {
+      "path": "release/projects/touhou_LAB/docs/R7_LAYERS.md",
+      "bytes": 9665,
+      "sha256": "a3f90964ba428eb6c07069336eb28b1b8be98522d93d1be7fe2ac87c97536406"
+    },
+    {
+      "path": "release/projects/touhou_LAB/docs/R7p1_LAYERS.md",
+      "bytes": 8543,
+      "sha256": "f09574fe2a0b272271c2a153eea19234266d956d197ccabf995ee21de842ff90"
+    },
+    {
+      "path": "release/projects/touhou_LAB/docs/README_RUN.md",
+      "bytes": 5866,
+      "sha256": "378cae4d7d681f0790427771004d0bdccef82f5f166ebb23d825aabb666235cf"
+    },
+    {
+      "path": "release/projects/touhou_LAB/docs/SEGMENT_DIAGNOSTICS.md",
+      "bytes": 7586,
+      "sha256": "f65d898970dc8d68d4a1e726d3839dd3ded643070c67d7874231009e0e12bd0c"
+    },
+    {
+      "path": "release/projects/touhou_LAB/docs/TEST_PLAN.md",
+      "bytes": 3306,
+      "sha256": "0377eb09304a0727df5c4729808000a00fb8ed050155759121b7220460752375"
+    },
+    {
+      "path": "release/projects/touhou_LAB/docs/VERIFICATION.md",
+      "bytes": 10775,
+      "sha256": "984d4b2e49d794b24092a690bb9a0a40978d6fbde7c0f4cbe1a6d78b635d84e3"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/ddr_demo_ti60.peri.xml",
+      "bytes": 62981,
+      "sha256": "f62953438d949e4e09cf98eb89764657abfd56102e56ee7791bf09f8fd2770f4"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/ddr_demo_ti60.xml",
+      "bytes": 12761,
+      "sha256": "e841547721bea749976d5dd35913fc7314bfb01c995a36889026fe47dc5ed9e6"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/debug_profile.json",
+      "bytes": 14260,
+      "sha256": "2f67af01053034cf964d710b5e3b7b685ebf36e661228c78721d479ca4d21400"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/debug_profile.wizard.json",
+      "bytes": 6631,
+      "sha256": "0c7f33b809161aa412098dfaa736a1b0f7cb0673e9febecad1b9c5a1b4cd3549"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/ip/soc/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol0.bin",
+      "bytes": 9216,
+      "sha256": "ccb798c235648abcb737f367124e43bee548462a77e5b56130966bbab1c309cf"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/ip/soc/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol1.bin",
+      "bytes": 9216,
+      "sha256": "27b918b1b0a96e2364d95144b2a02b9308ec8e42d1e9f536c9cec426c64f5752"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/ip/soc/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol2.bin",
+      "bytes": 9216,
+      "sha256": "9a97796e49bb8614cf04336194766a79f5a0fdc800f8338d0d0a95d00da87f9c"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/ip/soc/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol3.bin",
+      "bytes": 9216,
+      "sha256": "fae1132a00c5ef4e50af277408272e2634b7d7d36ef132bc7817cee3160039a6"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/ip/soc/ipm/component.pickle",
+      "bytes": 397798,
+      "sha256": "18e67fddb2bd88eee776bce28d5dee491ae2719ec3b8daf0fdcac97341caf9af"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/ip/soc/ipm/graph.pickle",
+      "bytes": 995235,
+      "sha256": "4709a6a69e22d1434cb592a4e2903b9287323c6ef87610c1086a1f2fdebbbe82"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/ip/soc/settings.json",
+      "bytes": 5724,
+      "sha256": "9a5f26b9f09d77f7e9e76be6e604118733106d4a038a92b25b3bdf63ded31b34"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/ip/soc/soc.v",
+      "bytes": 1644047,
+      "sha256": "8f1b212779d34fab0b8df9a74739738ff1116923d084a486f085794415746257"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/ip/soc/soc_define.vh",
+      "bytes": 2971,
+      "sha256": "9e87ff228ef9caddb468452e8f20808da2b2967f731ff2c70764c23c716c7615"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/ip/soc/soc_tmpl.v",
+      "bytes": 11853,
+      "sha256": "5d70f9e842eb8ad082f3929c32dfb061cc86fed30f6f77808ee003d1704f6dd4"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/ip/soc/source/hardware/netlist/EfxSapphireSoc.v",
+      "bytes": 1619783,
+      "sha256": "c0a694fdec5c9a67e8d5719f813aa0486df130f34b5916c9f2f469ff61478310"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/ip/soc/source/hardware/netlist/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol0.bin",
+      "bytes": 9216,
+      "sha256": "ccb798c235648abcb737f367124e43bee548462a77e5b56130966bbab1c309cf"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/ip/soc/source/hardware/netlist/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol1.bin",
+      "bytes": 9216,
+      "sha256": "27b918b1b0a96e2364d95144b2a02b9308ec8e42d1e9f536c9cec426c64f5752"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/ip/soc/source/hardware/netlist/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol2.bin",
+      "bytes": 9216,
+      "sha256": "9a97796e49bb8614cf04336194766a79f5a0fdc800f8338d0d0a95d00da87f9c"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/ip/soc/source/hardware/netlist/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol3.bin",
+      "bytes": 9216,
+      "sha256": "fae1132a00c5ef4e50af277408272e2634b7d7d36ef132bc7817cee3160039a6"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/ip/soc/source/hardware/netlist/EfxSapphireSoc_io_cd.rpt",
+      "bytes": 7594,
+      "sha256": "8dceaa91446a3e40b29744ee9e6758be58e214596fd490eb8b70258a3926ac59"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/ip/soc/source/hardware/netlist/source_aldec/EfxSapphireSoc.v",
+      "bytes": 1619779,
+      "sha256": "bf115f811e85927a87f0759421265044b5d6031383efe62b6abe80e6a6350249"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/ip/soc/source/hardware/netlist/source_efinity/EfxSapphireSoc.v",
+      "bytes": 1619783,
+      "sha256": "c0a694fdec5c9a67e8d5719f813aa0486df130f34b5916c9f2f469ff61478310"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/ip/soc/source/hardware/netlist/source_modelsim/EfxSapphireSoc.v",
+      "bytes": 1614535,
+      "sha256": "9b7a84454bfb9ea6773fec31598187f60550f8d913e41e4291be7891117889a6"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/ip/soc/source/hardware/netlist/source_ncsim/EfxSapphireSoc.v",
+      "bytes": 1620313,
+      "sha256": "5704648e827adb1c4d7c9f558a88984c1375f1ecf7f9ced896a0261842c125e6"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/ip/soc/source/hardware/netlist/source_synopsys/EfxSapphireSoc.v",
+      "bytes": 1617943,
+      "sha256": "3d53df901d5d12c27c8161f7cdd43697f4a75cc1b2b16ae1759a86fc018b21da"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/ip/soc/source/soc_config",
+      "bytes": 1058,
+      "sha256": "384d3e336087c535159177e382df6338583d8decc0e2b769ce7397868ae349ad"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/sdc/ddr3.sdc",
+      "bytes": 35334,
+      "sha256": "2ed3b436b406b515e1228f53ccb7d5302e32e314e597a4ca71bf09ba35485026"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/sdc/game.sdc",
+      "bytes": 43658,
+      "sha256": "492874bae9db5648c868218303ef55d2354974bf1b6c633daa7289374dba7081"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/src/Axi_Mux.v",
+      "bytes": 130959,
+      "sha256": "2510da6a22db6f79fffc5faa5deda6020855c71a86872cee142d315e002d28e0"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/src/Axi_Mux_Param.vh",
+      "bytes": 873,
+      "sha256": "fd7b293ad5e0cc71cf1a8a741f74361dc3455a4a56c4b59d943055d975716e5b"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/par/ddr_demo_ti60/src/Interrupt.v",
+      "bytes": 1619,
+      "sha256": "658221537a1b74348adfcb499590b7905a19be544925f04bdb32f19e39c8fb69"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/axi_shared.sv",
+      "bytes": 5709,
+      "sha256": "dfc42a9e639e88cbcacd9c8f1292e689eccb9b8feb6c25d6fe9997cb7fab53f7"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/bitblt_engine.sv",
+      "bytes": 28834,
+      "sha256": "7bce834ac8739150adc1ffbc68852095d5d134ccbfdd98f0493fc986061688dc"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/common/Ddr_Read.v",
+      "bytes": 106939,
+      "sha256": "c5b5fc28ed8cd974f5d116a0cb70f1c64963996092a459583df671e85a8bc16e"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/common/Ddr_Write.v",
+      "bytes": 133053,
+      "sha256": "b4f6e9776d027899f2f4912e215a7153c6913bee4c02ce70409aab3ede8f712f"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/common/efx_fifo_v2.3/efx_fifo_wrapper.v",
+      "bytes": 55401,
+      "sha256": "63e824ebc3c4293ab5808519a7e9322f12f6700231d1fca30be0367420e61c19"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/common/simple_dual_port_ram.v",
+      "bytes": 1565,
+      "sha256": "ecb40539c1a25bcf4917c6d492767d90886316f286b4f26ecb63f008c721ca2a"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/ddr3_controller/axi4_bus_ctl/axi4_bus_ctl.v",
+      "bytes": 187622,
+      "sha256": "ef032ff1d36c308cbe785a373439e1ddb8ff624a89c1e7ac3f16e7dc4ebd9c15"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/ddr3_controller/axi4_bus_ctl/axi_upsizer.v",
+      "bytes": 242096,
+      "sha256": "03c25e7276781d9c22f4cbd7b25b76b6317ed7083874a7c94b052a0abd1188e0"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/ddr3_controller/common/efx_fifo_v2.3/efx_fifo_wrapper.v",
+      "bytes": 54025,
+      "sha256": "040558d9dafd6d7f4c6610b8cd8040cdedc3f95b58a6f31f32dbd7429182eb98"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/ddr3_controller/common/simple_dual_port_ram.v",
+      "bytes": 3413,
+      "sha256": "66cb376b6cf6bddaff66b73456417fc561a2a74330822feec49ffb1527ce9c98"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/ddr3_controller/ddr3_parameter.vh",
+      "bytes": 994,
+      "sha256": "abe0c6f3207c30d5468c82cdcf73726ea03fab515274be62dd4bc3c031f52f48"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/ddr3_controller/ddr3_top.v",
+      "bytes": 58221,
+      "sha256": "99e5b8e86708094a350e698316917f953c3c29bdc96d883b9b18eadf573d34da"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/ddr3_controller/lb2_axi_clk.v",
+      "bytes": 16295,
+      "sha256": "093c020259988cbcc2b250a17b6a785c31f5bd98a4df6e356e64a79b1ec6f982"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/ddr3_controller/local_bus_ctl/local_bus_ctl.v",
+      "bytes": 16841,
+      "sha256": "a3a97a8c5c3da29318df090d84f5292a5bc8d5abb9e051f80478b568056e4cf3"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/ddr3_controller/memory_bus_ctl/memory_bus_ctl.v",
+      "bytes": 337849,
+      "sha256": "ae80ecb545318aa3726bc4b6d92b26e77344d6734aab64b7e01d3c86594b08a4"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/ddr3_controller/phy_ctl/ddr_calibration_ini.v",
+      "bytes": 97276,
+      "sha256": "6583b7a6fde9a8c79bca76429b6269ba050ca3478796d8e4d2bc67e1dacc0c57"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/ddr3_controller/phy_ctl/ddr_mpr_rdlvl.v",
+      "bytes": 17792,
+      "sha256": "db1922363adece86e57dd87e3b828c63e832997bf4687517abdd78ebf1de6367"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/ddr3_controller/phy_ctl/ddr_phy_if.v",
+      "bytes": 55924,
+      "sha256": "a6c431b805913c5a8976a80b5ef63e17315da01ebbbba96f5f7aebadd41babea"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/ddr3_controller/phy_ctl/ddr_phy_rdlvl_dqs.v",
+      "bytes": 24662,
+      "sha256": "488c97f4b435185f752b5389c1a12eaabe806ee369034a99aa434859549a20ca"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/ddr3_controller/phy_ctl/ddr_phy_wrcal.v",
+      "bytes": 57558,
+      "sha256": "d5f2e06c7b9c9b7c8dce50764c57349c9ff4a77f89f6b96b791e5f10e466fda5"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/ddr3_controller/phy_ctl/ddr_phy_wrlvl.v",
+      "bytes": 27310,
+      "sha256": "4ec6c7977667e158a21d4c7803040720d9191c2b20c6ce35a385045ab3d6f654"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/ddr3_controller/phy_ctl/phy_ctl.v",
+      "bytes": 44163,
+      "sha256": "cc5c2b4c4578f7308636a35bc3a9bd253df89b1963b89782a47958636b1e3ed3"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/ddr3_example_top.v",
+      "bytes": 30977,
+      "sha256": "a453920fef5e5b7a4ded3df00b9b8186e3be216fb161bc2a098649cc8b74b066"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/define.v",
+      "bytes": 66,
+      "sha256": "dd4555c207bb7009d00f5f4c4d325affa885f5551c1cf6f41d27f692bac8d8a3"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/game_apb.sv",
+      "bytes": 9267,
+      "sha256": "1bb7001e5439f9f3c7c68b963f2c53d4e95f4706a1c31ce6e542c4ad5a799067"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/game_fabric.sv",
+      "bytes": 13156,
+      "sha256": "85032d1ba289cf893e807aa562891a2339770d3439b48438cebd0e187e6a94c7"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/hdmi/dvi_encoder.v",
+      "bytes": 1340,
+      "sha256": "fd82889ac3b607a68c960170893d1afd78dcc7bcc194695e6b0fb3f2ab7822d3"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/hdmi/encode.v",
+      "bytes": 7630,
+      "sha256": "1ce86cfe0d112c5de3c022366e4e8a060f27dfc3b303e6429cb93f386fbedc6a"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/memory_test/addr_gen.v",
+      "bytes": 10749,
+      "sha256": "91029bec7f2b0a8eff57805732cdabca60cd2fe77bcf2f16f3b4388c5471edb3"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/memory_test/axi4_m_gen.v",
+      "bytes": 29572,
+      "sha256": "9c3e88e1422f6dd4a841a0b54b604a8342102beaedf17347d19d0eb4e5b15467"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/memory_test/axi4_onlym_gen.v",
+      "bytes": 11288,
+      "sha256": "64e867802b53dfd5fa9a34aa7b3e3c89858a3020954a63befbad4db9cf65e045"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/memory_test/check.v",
+      "bytes": 14356,
+      "sha256": "f05c279b17b9b634e4a4a4b664cd30442983248ae15993cae03cc0c8d244c09d"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/memory_test/common/bit1_delaym.v",
+      "bytes": 2580,
+      "sha256": "b23b263afff2030a91f55581de231be546775b3739c1953e5769671eecbd42b5"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/memory_test/common/divider.v",
+      "bytes": 15764,
+      "sha256": "f7353321eeac4578d116859cb311944cb06f23e20e59219248514cd480a96aac"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/memory_test/common/efx_fifo_wrapper.v",
+      "bytes": 73772,
+      "sha256": "633f6719460efbe336f8dac4657160bd5d9af0ff0eed99d0e613752620b683fa"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/memory_test/common/PrbsAnyGenerator.v",
+      "bytes": 4901,
+      "sha256": "e34dc0c5e5741b3b550f97063865ce18db7f3ac2d625f8055c343c572758e659"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/memory_test/data_gen.v",
+      "bytes": 7729,
+      "sha256": "47cc71f62a4ad1a8fd10e2388263ac22d9482d2583fc50783931dd4386885b61"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/memory_test/ddrtest_statistic.v",
+      "bytes": 45465,
+      "sha256": "e004a83dd0a58be3f828c18d5d0fd8d53fb1bf3d22b177b3902653d05099e0f9"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/memory_test/len_gen.v",
+      "bytes": 8754,
+      "sha256": "36bec941e0df43226825856adf3babcdd66b797cab50d121bd3f576cbc19520a"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/memory_test/memory_test.v",
+      "bytes": 35745,
+      "sha256": "df293df2d099e7091b78527bc3359b5490d7db58ae011747eff68be6c7ecc219"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/memory_test/PrbsAnyGenerator.v",
+      "bytes": 2833,
+      "sha256": "5a0421c745236c1acfa876d9beffd662690baa49baa08c8f7b90e1bb0cd37c60"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/memory_test/rd_drive.v",
+      "bytes": 5693,
+      "sha256": "5d178d49417179c6db321449c8a3779cb7d1c46248ea6064f690abf56d48b709"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/memory_test/test_seq.v",
+      "bytes": 9634,
+      "sha256": "7e48b7a363b54c071c3b6f17335276502f324bfc4d81b2d0ae685e21320c6f25"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/memory_test/wr_drive.v",
+      "bytes": 15030,
+      "sha256": "ed580b4f0e5af844dc2774c836b8ed323bd15bb666b58b7d1819f0c029280d6b"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/motion_cache_dma.sv",
+      "bytes": 15415,
+      "sha256": "1b9d482e4026c75ef29f3937e077a68c0f38e8637fa0b4205bbc899d8c7655b3"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/motion_engine.sv",
+      "bytes": 19783,
+      "sha256": "eb6c7b55dab28528fc025b082091c66eb63e0a3edfa73a79ca497c40944002e0"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/motion_trig_rom.sv",
+      "bytes": 2436,
+      "sha256": "9c852faae7f4422c23f2a6d97b32efe5544b44388d834f67c9f7a306fa4e43ac"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/render_axi_arbiter.sv",
+      "bytes": 3867,
+      "sha256": "1de21e92ac5c6fa5f3ed288ea70f4f43279ea80e5b2e4c4ee21d235f498a776e"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/render_engine.sv",
+      "bytes": 12017,
+      "sha256": "84b9e129a6437d6dc1d85c335575eea64c7ee2f9ca2fb6481d2b7dd5da597c2f"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/sprite_batch_engine.sv",
+      "bytes": 22183,
+      "sha256": "b23af6f3c93935de705b2dd11d25a6845921636b374044efb99878d6b637339c"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/video_scanout.sv",
+      "bytes": 8489,
+      "sha256": "da0891695774f64c5866167070beb89e1d5fd71c48596d63d54c546ae2945d6b"
+    },
+    {
+      "path": "release/projects/touhou_LAB/hw/game/rtl/write_beat_fifo.sv",
+      "bytes": 1346,
+      "sha256": "71341a2b5750d45dd4a5ec1bcabe019306f62743d3c1f1c12c497bbf00d24e29"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/analyze_stability.py",
+      "bytes": 13506,
+      "sha256": "f8d8807b42bb3f96ff69e27200e8d70a1fced76b39818ff14bf49ad6be4cb20b"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/append_original_enemies.py",
+      "bytes": 5167,
+      "sha256": "6526e1b2cf30f2b933997896cbf8625bb9dbb0298fc0dbf1149dc1a525933e02"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/audit_r7_board.py",
+      "bytes": 5713,
+      "sha256": "795e86068704dabdb9f1d29c6f17f912011d344c4cb940b66cca6dd1948dccbf"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/audit_r8_board.py",
+      "bytes": 6876,
+      "sha256": "314832901bdf41471f5b36c5013c3be00426bb286237ec57518997c03e061606"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/audit_short_capture.py",
+      "bytes": 9533,
+      "sha256": "6e2d5703ff8e03733f754be21228b6744ae19872b31a927b3c857237ec58530e"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/benchmark_board.py",
+      "bytes": 7519,
+      "sha256": "19d5080b4acf0d9374fae2d4d4ed34d79c7b75a8e6bd016e7ab52787c42a74a3"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/build_firmware.py",
+      "bytes": 8566,
+      "sha256": "50ee38722c817016d334c9b3cf6e758553db0e50ebbf131f64b76feb1afe80b3"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/build_hardware.ps1",
+      "bytes": 678,
+      "sha256": "505e38291ab8ed56566a97d9576e3a9e51d463eb6050fc261bdf417443602e5c"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/check_hardware.py",
+      "bytes": 1545,
+      "sha256": "67dce7ce06743e9bc9ca7bd032566a542be9ccf8accf01c92585359db8c37343"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/configure_refresh.py",
+      "bytes": 1909,
+      "sha256": "88f9bb7e7bd0a82c2ee675f1b40d790371bbf0d2e78ce03edd453f2d1ff2bac2"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/control_r2.py",
+      "bytes": 4888,
+      "sha256": "fbebcf5ea02fa34c1637ea57f0e497eb6e3e3c968baa5763626de44d50af3ce8"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/download.ps1",
+      "bytes": 512,
+      "sha256": "c9dbfc807dc6d6c3d7736179304de52c6fb54395ad5f2afb1956dee28b4e685d"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/efinity_env.ps1",
+      "bytes": 1492,
+      "sha256": "1c6271c0ac5aa966033e0b81930fe4f580d03c89c689373c3a8c32ac64ca45e3"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/extract_battle.py",
+      "bytes": 2743,
+      "sha256": "675483bf98eff0d66084327cab0aae2d8c65af083efd02c908fecc566f672fa4"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/final_capacity60.py",
+      "bytes": 2028,
+      "sha256": "c579119ddc7560eadcf38eafb36e2d43be012c96c28bde86cbda1c52840a93bc"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/final_validation_720.py",
+      "bytes": 1706,
+      "sha256": "be2146ef9a16ed5d24f6f633d546852e91e043c32c7b87a3f7a7e6e08016e625"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/finalize_actorfast_firmware.py",
+      "bytes": 14145,
+      "sha256": "3c176f7ff6720884aba97d0762eceda56bf821eaaff365eeab927c7bd0166605"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/finalize_collision20k.py",
+      "bytes": 5428,
+      "sha256": "0be3bfbc7ef36be9dc62bebf7895472eb39103599f557bb6f3301532034cb9d1"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/finalize_hudlite.py",
+      "bytes": 4754,
+      "sha256": "e717b0689eddb488894068b66ea4478d6739b5ec27e113568c14f79b617340e7"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/finalize_linepublish_firmware.py",
+      "bytes": 12071,
+      "sha256": "6b3ef93554a1a71cf29a01649e3633e41ebbe13956ce10b9976728884f432a7b"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/finalize_reportoverlap_firmware.py",
+      "bytes": 14124,
+      "sha256": "a264342969c226b8611dcd594665346b3171fe88852b4830f24300315c77df7e"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/finalize_v2_report.py",
+      "bytes": 8154,
+      "sha256": "93151fed67f0289b894d1528271da1b6a1c0c4af1f2519b2287a9eae0e764763"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/link.ld",
+      "bytes": 4068,
+      "sha256": "4d83af9b29d75d069c72f75098838a5b2e5127a14939271e5763b2d76819e3cd"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/load_firmware_verified.py",
+      "bytes": 2837,
+      "sha256": "90a313150b442eaba0e9f83e40fad5c595cc9a15bbee45f1f2a9a0e4d03d15c8"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/monitor_board.py",
+      "bytes": 919,
+      "sha256": "ddfd50ffc8b80bddeb3088fd929d52eb906af33142606637733304e42b3fd068"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/pbg3_extract.py",
+      "bytes": 2330,
+      "sha256": "91b25d3ad04335dab294016b730b86e9bf592e3fa46d402b617650b352a938fd"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/prepare_stage.py",
+      "bytes": 9905,
+      "sha256": "1d1c03ae022d4255cee4a7fc9a596c3f04134b6150ef53f26a09b73a9404bbaa"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/render_preview.py",
+      "bytes": 2169,
+      "sha256": "d0674345b05a24d85ca1c692f6586d58548f3a9e81ed952117501738caf8bb34"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/replay_tool.py",
+      "bytes": 2681,
+      "sha256": "7abcb9fbf905e706fa82527595eadb8d2aa68eca32d84d9066851ef4f3c295ff"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/review_report_overlap.py",
+      "bytes": 6453,
+      "sha256": "37bc5157da2326002bb01f61ff893968b962e13f0b8ce025718adbc79dd40d9b"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/run_batch32_rtl_tests.py",
+      "bytes": 3663,
+      "sha256": "77bfb3ccf1fad6cad21340767d01a468f5f3f00e7e06b7964e88d9346ceb0e0c"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/run_stability.py",
+      "bytes": 5831,
+      "sha256": "1f2ab5f49987f73a3b2c1e7f95290551dacbbf59b897d992b2dba6c181a4883f"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/summarize_final_720.py",
+      "bytes": 3609,
+      "sha256": "4ee3e4897ae7c28232b84a4040fc9bb5eaec341a45b36695da98ab07474e05ab"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/summarize_full_arena.py",
+      "bytes": 3754,
+      "sha256": "81b3533df4fc77343f96f27c57254fd72c21ce4e227af71d31f60a91ddea1077"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/summarize_input_demo.py",
+      "bytes": 3925,
+      "sha256": "02985abc8a861040d8057396e64f3ecb6101738fae12a6057cfdd8cfd1601fbd"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/summarize_original_battle.py",
+      "bytes": 2282,
+      "sha256": "a825c3ad4e4e544c270eeaf9f47054188181a3bd8b1aa4fe5698d5613fb8f3a3"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/summarize_play200.py",
+      "bytes": 3976,
+      "sha256": "c731f363337fcf739b7fceebd0236b79ee0eba0836f95bf638713abe7c27ad60"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_actorfast_emit.py",
+      "bytes": 8413,
+      "sha256": "da74c4b3cd3b21cb42afea7dcfd50834211ed3d9df59c92d2f1ee0c65391e7d2"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_actorfast_main.py",
+      "bytes": 11171,
+      "sha256": "84c59da42365546b41ac5b819b4a4206fae9a39781e132ab65113a0f407f5e5f"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_actorfast_rv.py",
+      "bytes": 7479,
+      "sha256": "24590221393f8b1b3797565a45cde36c49756a51072b4a46cc074ed7341671cb"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_adv.py",
+      "bytes": 1732,
+      "sha256": "c2fe78d87d8e170afc4134f4c6ae24f0d1c339a035876c20d0d64867042d0997"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_adv60_model.py",
+      "bytes": 1866,
+      "sha256": "689c8fd8d664a9759c21df041a678f4389bfb0a53b3cfa1a6dd67f08664f932e"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_adv60_protocol.py",
+      "bytes": 1698,
+      "sha256": "af2ec762410289a9e50916254895a4b5f0e3f84d146df7fa274ecf3b9a4fbd6d"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_adv60b_fullpixel.py",
+      "bytes": 2022,
+      "sha256": "73567a7086ae12948e809d3ee58801055921c3ea3272a8a42709ed1a52229302"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_adv60c_fullpixel.py",
+      "bytes": 2022,
+      "sha256": "1d46637505e732075bf4e386eaf3571fdf8a90882127edd34ebb3b5b9c3745c3"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_background.py",
+      "bytes": 1821,
+      "sha256": "59f4db4ea40c03d8ba4b289f0d2a8d29101adc2400ea4bf0faef507717679e04"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_battle_patterns.py",
+      "bytes": 1706,
+      "sha256": "7efd34a36460d45c190313e80a28e21e7d50cdcb30a7e41e5e91112f6f07eef4"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_benchmark_acceptance.py",
+      "bytes": 2451,
+      "sha256": "697914e00ebc51987dd75b7c8e20b4a6577809179d324bb4eee28419ffc1742b"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_cpu_menu_response.py",
+      "bytes": 1317,
+      "sha256": "4d636367c8eedb7b710146e22b3a06d7a37085829906d23f271bd3cf2be57f4d"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_dodge.py",
+      "bytes": 1412,
+      "sha256": "8042c48071c854a0fc9bc52828ae4b4720d652e5be07d594d59e2a1c6b1f466d"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_enemies.py",
+      "bytes": 1578,
+      "sha256": "ac5d198bb376aa6db115704854ec3ebbb2166073ef133a83990acd94ac118b73"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_expanded_battle.py",
+      "bytes": 1866,
+      "sha256": "dee6c33d158bed5f5b118181f84e36414959df4cf82063d5b688417d2e65582e"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_font_equivalence.py",
+      "bytes": 326,
+      "sha256": "9af42aae6fbcf8b0ad5cacf98c439f0caa42f810ea605d4b3886f9fa8fbd2758"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_frame_clock.py",
+      "bytes": 2469,
+      "sha256": "6b34c7e80ad7f3e84b94262c5f9e5c6646e11ed9329eef98881513e610aaa55d"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_game_clock.py",
+      "bytes": 13759,
+      "sha256": "ffa8716e2cfabf75d52d44c34e904c806a9621ce2d31b709d8cb94721d7b5260"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_game_load.py",
+      "bytes": 2219,
+      "sha256": "eb1941a3b7d14f9fb7cd9064c1369febf02c29048e884ce4164ac13c706849d7"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_game_load_render.py",
+      "bytes": 14316,
+      "sha256": "96de30c46054f0f3cc95499242e02bb8f79a52134c4da417427b42c0a6b50511"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_hud_dma_lifecycle.py",
+      "bytes": 11075,
+      "sha256": "3325b486e7e63f30bd71b2775cbde59fa2d44e170540da54e57c31b1f7675016"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_lab.py",
+      "bytes": 2161,
+      "sha256": "027a095927d179ed6f0024f1b20a6ba718d3ff56fb59d9b530958783b6115b0a"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_labimg.py",
+      "bytes": 1444,
+      "sha256": "1b3f966ba36287da18340bdd3a7278222d7f078195324800b9b6ab4607b55314"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_labx.py",
+      "bytes": 1709,
+      "sha256": "4cbc3357a210417371f060d612de561e43c5375990abc2707cf26aaa6133ae17"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_layer_visuals.py",
+      "bytes": 2357,
+      "sha256": "f3d3074d276a97bdb9b0b11a77cbdba2e168a809409781394ca4bc890b06b830"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_linepublish_main.py",
+      "bytes": 11149,
+      "sha256": "f6841e93b57debf046b97d595a61f0b2419b9350302289bc449a795c060e4329"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_motion_hw.py",
+      "bytes": 10374,
+      "sha256": "99e0c50d03b3883a6e32512be80b6928c6a8b1f65e2428b6864062126b2cd666"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_near_candidates.py",
+      "bytes": 1851,
+      "sha256": "f82b2d4967b3ff7d205ac19f14d5e20e101558b5ec6e04ddb0a2cb2a1070b72f"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_original_battle.py",
+      "bytes": 6697,
+      "sha256": "eaddac25568d4bb79ca1711d779f3aaa841dacd163ac9fd90eb78f9f85bf910c"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_phase_gameplay.py",
+      "bytes": 3040,
+      "sha256": "92dd2c514e7bcb9570653bf11eb11a90ed4d729ac2ced0ab76da72beac7b4316"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_pipe5.py",
+      "bytes": 11345,
+      "sha256": "95db37ac52e74a1dfa25f7ef6448241ee3008b7f1cd4da49e67b1bc87da744da"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_pipe5_control.py",
+      "bytes": 3357,
+      "sha256": "068a3c721e8c2c30bc8c960111970f87df60a6d516c12db88d7816f9abec8a2a"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_pipe5_wire.py",
+      "bytes": 5705,
+      "sha256": "28ef8a443b014bb8dba050018dc17012e37d17f2ce8385112f1001d56f4b609b"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_preflight_driver.py",
+      "bytes": 2676,
+      "sha256": "491802ec427ead5e6ec25f88aae2c175127289b520f1d70ad91b2e5671e0a4bd"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_r2_core.py",
+      "bytes": 1923,
+      "sha256": "4293aa3c5183b6a52e1eda3df0673e27754d6cb4c2b840f412e1d33e17a217b5"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_r2_render.py",
+      "bytes": 1302,
+      "sha256": "5915a381fe64791adcf0797c07b346a2af4be688919407414ab5d803469be187"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_r6_integration.py",
+      "bytes": 2347,
+      "sha256": "e4a578ee9a57e4e601b735c9d38bdb722c5300846f6f807c7e7e3098a1f988d1"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_r7_render_integration.py",
+      "bytes": 5662,
+      "sha256": "509159af70572ac31753199fedf401e4ce1bb661fa657037fae47ed36a78d8ac"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_remote_input.py",
+      "bytes": 3357,
+      "sha256": "25e6b6e7c7ef0a80fe04fb42b1f740f657dca0e7f305253c8f6702d1523d0590"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_render_budget.py",
+      "bytes": 1627,
+      "sha256": "09593035f597f9443614e0fc45a79174578ffc652f2ee0aef5177d0c5f8bc6aa"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_replay.py",
+      "bytes": 4850,
+      "sha256": "02137c26aa30fe9ab408acfc64fca8d83733eaaabddc4b73d0be59afeaafdf1c"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_report_overlap.py",
+      "bytes": 11014,
+      "sha256": "456741def0c27705f03ef955d46788cb9205d22af14cde352518d1f3d84ef98c"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_runtime_cli.py",
+      "bytes": 1925,
+      "sha256": "3b001bb4177f2f90c25961da7fa3abd72ccd3b6b644f940e7184ff0bcdd4cf0c"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_scene.py",
+      "bytes": 3475,
+      "sha256": "de0093bf3f6a96ec85d36d52c44ce3142adaabd68bc3a05b2822f6254632b84e"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_segment_diag_native.py",
+      "bytes": 9626,
+      "sha256": "8552a6b814ef548c437601e5316431c548ec2fe8de0f76eef0117fcc8bbdf83f"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_segment_diag_unit.py",
+      "bytes": 4419,
+      "sha256": "ac46f9168e98045c4dc20106f2f44393d36deb243287cf1d8e097e772e72f311"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_stability_analyzer.py",
+      "bytes": 7259,
+      "sha256": "b2efd355f2a25b2d7d1f9a323e267f311a14fce597065eda8a29e690689cad6f"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_stage.py",
+      "bytes": 6481,
+      "sha256": "e724d2c96c8a7664b7b07be72dd89e0ac97e00617860f43c14ac314b6f9b791e"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_stress_gather.py",
+      "bytes": 2940,
+      "sha256": "72090592cca8f995ff6291f519281b86c85ef89cae29f46948d865ad1621e5b0"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_stress_pipeline.py",
+      "bytes": 4742,
+      "sha256": "3ca5c6c81adf1dbe54692c58fdaef065083f4388c07f323fbc363a5e8c156384"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_sw3_state.py",
+      "bytes": 19146,
+      "sha256": "111f5f86519a4e62bbbe8e51d032cfc1a3420a9aad6c91cb117b632e86602df9"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_telemetry_counters.py",
+      "bytes": 2693,
+      "sha256": "360746677a8d77a86965816fd73de36d3c8d88d4b5d64a31ae4e31ae2b8f3bcf"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_terminal_render.py",
+      "bytes": 1989,
+      "sha256": "707cc9638c114ce890ebe1bc91f77e730e1557870552eb8b0d5878a09eda7c2a"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/test_tick_profile.py",
+      "bytes": 12164,
+      "sha256": "1e13eba0a88972b5e448f8953b539be8721b0ebc788691142e09f487298b3f4c"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/validate_final_board.py",
+      "bytes": 2770,
+      "sha256": "d200855d12a930cca9137681abba950b648067e740c4235d66031035eaf64584"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/validate_full_arena_board.py",
+      "bytes": 1711,
+      "sha256": "b5a91ab114f942984f11120a502ea6a117f91966c70266d7e5b6f7e90487a646"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/validate_game_board.py",
+      "bytes": 1762,
+      "sha256": "54d2b2d389d433ff3c423999b4590329ff9fc7e8f38e3a21f587fa2aa3aa1ba3"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/validate_input_demo.py",
+      "bytes": 2530,
+      "sha256": "959d1e9bb8753b6e70b88402b93aa384d94222e9d2c7b2964007f78df7db83c3"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/validate_original_battle.py",
+      "bytes": 2133,
+      "sha256": "2a9c17f6bee0b8b3f19901ddf1a41e4d624d38a30b7feee68869fd4aaddbe8c0"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/validate_play200.py",
+      "bytes": 2516,
+      "sha256": "f2d337ea752908e74d67ec828a80a4c874cbc494f6bc5a7b769c2b85774b7681"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/verify_all.py",
+      "bytes": 13703,
+      "sha256": "310948620474c157caddfef264bffb703b7e31dbceebee8b3617fe493f073cad"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/verify_artifacts.py",
+      "bytes": 723,
+      "sha256": "de337f3a895bf5e5b400447b875f052d35617f1e7aa19503b83e04f4c04c5ef7"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/verify_hud_delta.py",
+      "bytes": 12214,
+      "sha256": "63bd5fb7d08c82c43df47babb3cb3344dd4cf496bee37335ae35c0478712f517"
+    },
+    {
+      "path": "release/projects/touhou_LAB/scripts/verify_hud_sequence.py",
+      "bytes": 1799,
+      "sha256": "b77893938b66b76a1547a9a12d47c269d7339a0658d03e0da8157b536ef11515"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sim/axi_shared_priority.sv",
+      "bytes": 5837,
+      "sha256": "ba51cff6dd1b9a9065d375c92782327089336c0899885903a13bc88103e788ca"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sim/game_preview.c",
+      "bytes": 5593,
+      "sha256": "668f741ce54f03652ceefb52b96d4a3ddcd8898d243706d46c167e4acfd0ee84"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sim/scene_host.c",
+      "bytes": 5392,
+      "sha256": "00f040ca76673f846ceed8a6feb12c1fea3b004ea3378f4be0bb38091c97b59c"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sim/tb_batch32.sv",
+      "bytes": 14764,
+      "sha256": "6a2c837e6cf02b327d4fc81d8eb735388ffc6ee9cb4373b64098baa90d58eaf3"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sim/tb_batch32_apb.sv",
+      "bytes": 1409,
+      "sha256": "8ac4b9584f988c8e1e49b568305e3d3ad45b3e9c8e0123115579083274829585"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sim/tb_batch32_edges.sv",
+      "bytes": 15332,
+      "sha256": "91d6fdb7717cde4e0309cfcf2ff715ae6c9f0a19e00681d5d0b91b50a0c444ae"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sim/tb_batch32_full8.sv",
+      "bytes": 14769,
+      "sha256": "cc30ee8bf2ec6d8a1cbc680f447210198f20b874c27f4af1a3567a41e989e6ff"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sim/tb_bitblt.sv",
+      "bytes": 20891,
+      "sha256": "eab322455e1995a3976416e5c163ad055be65f223f3dceeba44507db7c24d678"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sim/tb_bitblt_bad_rlast.sv",
+      "bytes": 9758,
+      "sha256": "15d3564c3add5015e4b3d71d2dd26bf9da0a1517d42d82cd0c9d42c93c0bc7f2"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sim/tb_bitblt_reset.sv",
+      "bytes": 17114,
+      "sha256": "82ca0067978059cdb957089341db5cfcde886ae3442bb972ca5c82269a9fe05a"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sim/tb_bitblt_top_address.sv",
+      "bytes": 11483,
+      "sha256": "359e4d7142f8dd915729c1d90ea9014312f6b56b0bce04840be538678f72ff3c"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sim/tb_render_batch.sv",
+      "bytes": 13586,
+      "sha256": "5b6077ab8c1ce42d58c042b22bb78033e4fde468f2859c926f1805ffa886c507"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sim/tb_render_legacy.sv",
+      "bytes": 21004,
+      "sha256": "cf4665071ddb44373991dd290552e7a4379616e410734b5a24351984f3ea3464"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sim/tb_render_legacy_flag32.sv",
+      "bytes": 21011,
+      "sha256": "4c191ee29614edc7ae1a2a10d855372c392533d30f8880ad7cc90abe930c9604"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sim/tb_sprite_batch.sv",
+      "bytes": 13028,
+      "sha256": "e6c80345a422948719e233eb6a5d3ff1b993250c0bd82a72fb33e9c3a93c532c"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sim/tb_stream_trial.sv",
+      "bytes": 13867,
+      "sha256": "7c80cc6d08a9f2c661133228856fc137cc85b495d6126f83fa767150346ad78a"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sim/tb_video_720p.sv",
+      "bytes": 9049,
+      "sha256": "fa7eeadd303828bc41adb98a5cb245eea967ee51ec0165071ca38d4d368abea4"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sim/tb_video_contention.sv",
+      "bytes": 10407,
+      "sha256": "a3a36015a19535e7afa98d195050ed0a6fecf4109698c16b03fd64fbfd4ad091"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sim/tb_video_priority.sv",
+      "bytes": 10414,
+      "sha256": "d143c96325e0fbbfbe830f97ee55e221b0de6c798e1957feeff71799c8cb2bb9"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sim/test_720_stress.c",
+      "bytes": 495,
+      "sha256": "738155b7ff9d971b47c9d441d85e4ccf208c46f8474e038cc322f36a52b9aa9f"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/adv.c",
+      "bytes": 50749,
+      "sha256": "77d7ed028a7d5f9ccd42a992a3b4b521a9f218665c62a14fc146952c5345cca4"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/adv.h",
+      "bytes": 286,
+      "sha256": "57aaac7ae7c0b838279ea98b3391f82534ed7a2cefd7f29e44ec05560120b2da"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/adv_model.c",
+      "bytes": 8163,
+      "sha256": "21c355c72fffe085789a0ca0f8cd85aba63270b35a861f1c77cefc932bb4b40d"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/adv_model.h",
+      "bytes": 1722,
+      "sha256": "62a45b895a63a232f2169ae01400e8c909cdcc632661e08ad001e10010fd3107"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/arena.h",
+      "bytes": 901,
+      "sha256": "948dc2a6cebb31705ac44aabc93b6716da2b27b15a177441e9e16ed105c9efee"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/art_data.h",
+      "bytes": 194963,
+      "sha256": "c5bb8b6cf60e8906a8989c1fc06a9e41f97e8b837bf49195f7b850351b884d61"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/art_ids.h",
+      "bytes": 763,
+      "sha256": "f99d590807f4634e7f1c431a09960fd7a35ddbf31daf3bd7ba132fd05a3c98db"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/background.c",
+      "bytes": 4450,
+      "sha256": "d4040421eea09e162acecb8dcace7e4211531ed2b1003f394663abe2bc3cf271"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/background.h",
+      "bytes": 303,
+      "sha256": "ab7f01be77ac382b7d4eead92d4e7ac1bb301a13d62f236be1ca120e7a85f1f6"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/battle.c",
+      "bytes": 40417,
+      "sha256": "3d0b01bc79a72a0ea72fd8d3d339d9bff45209387106b1ee1c72068c35f7d0bd"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/battle.h",
+      "bytes": 3271,
+      "sha256": "7915d4837eada18a1c98d2fea81dab4a95acf5c6a144b15d979af4ff1e726c9d"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/bitblt.c",
+      "bytes": 6973,
+      "sha256": "6c7ebe2bc114967582b4c63e0569dad3b8a8db5c92b824943a4c86c2d7dd2790"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/bitblt.h",
+      "bytes": 2775,
+      "sha256": "e574fe421e233f7361092d705d6168fa70d6f71bc61fd12569c3fdb80783978a"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/controls.h",
+      "bytes": 855,
+      "sha256": "028de4decd0d2e495b85b5e07c663618180943ceeb3cc15ee195b251220f5a25"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/effects.c",
+      "bytes": 8505,
+      "sha256": "270b05272d1094d1368eb067d5eb0b058fa829ad00e0182b735506af8eeb764b"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/effects.h",
+      "bytes": 1487,
+      "sha256": "140501f364b58543599da3c018b1b72a60621a67be8e21de9e179ae87b5de01b"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/enemies.c",
+      "bytes": 7927,
+      "sha256": "ea83aeefb79cb87735ae76c3acd631b2be41c19f6176331300d9d5a48047ad7f"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/enemies.h",
+      "bytes": 1474,
+      "sha256": "dd2b2767a3d9ee8b2cb24fb2443aba8232abe324b7bc9491dc6afe6fcc686377"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/font.c",
+      "bytes": 13405,
+      "sha256": "0d41ab6620cbab31d2539d04a6102095cd446bc78d22843cb8b80e3832435dc3"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/font.h",
+      "bytes": 451,
+      "sha256": "19b1b331760d32f6593a96ac41dbd6dd772887fa21889d6dd3a823eda0e1c383"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/game.c",
+      "bytes": 54582,
+      "sha256": "fc79343f6d556e8d64c5391b80e7f410240581fbc9a1b78bbbdafe64c7229734"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/game_config.c",
+      "bytes": 8620,
+      "sha256": "0416b5d45ada420f759174179dea743c2295b9d6ea0b2cea850cb0b96123a5ae"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/game_config.h",
+      "bytes": 4988,
+      "sha256": "483d79c4131eefece4593fd0d5cb5ef52deedd2af9d4e9de8a1c66f81015b8fb"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/game_load.inc",
+      "bytes": 24863,
+      "sha256": "0d80e030fa276e40c8be7e9115f36932c2247756ace4fc4c9dff382034e82fb1"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/hud_frozen.inc",
+      "bytes": 8648,
+      "sha256": "00e1a686e0d210aade6755fbbc3d325e550181190de2cccff4a741311e385b5c"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/lab.c",
+      "bytes": 23009,
+      "sha256": "bec8ed82e3e8ded20149af14fc50a5cb3f4b4aed89b240f9e113a5069e677cf3"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/lab.h",
+      "bytes": 786,
+      "sha256": "d9e497311893fe22042c2a1a9fef70caa4461473463f913dd3108e072851991f"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/labx.c",
+      "bytes": 21857,
+      "sha256": "dd7baf061fcd8ed3251d89e008de22fb2247fdf11b34bd47a93669fad4889ab5"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/labx.h",
+      "bytes": 713,
+      "sha256": "6e56a66ee41e170cdd19428117ecc275379898184f4d588e6036509cc1b22879"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/layer_visuals.c",
+      "bytes": 4932,
+      "sha256": "e4dc02c244727a3314ae951008a83ef582bb705ab4b38c2e36a30d9f190fd7be"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/layer_visuals.h",
+      "bytes": 1124,
+      "sha256": "6d29983b0b4c039a0769aa6e45dc0dff0415567184f12abad1b70872c5e0a624"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/motion_abi.h",
+      "bytes": 2808,
+      "sha256": "a799ec1effedc74a42087c55d0ad5ce22ca571f47b15d544dd8554021a362fbd"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/motion_hw.c",
+      "bytes": 10480,
+      "sha256": "79dec46d6f3970502c5d8fd5f559ebca448b2f431f15c2c6f8050e5573c02084"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/motion_hw.h",
+      "bytes": 2204,
+      "sha256": "14297ef4aa9bbb2e4c463cd59f3be3343f2d850de107a1c5c0d79b72572a727a"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/original_battle_data.h",
+      "bytes": 18136,
+      "sha256": "832cc482e2ff07cd5b997c99c7d7c34164e8fef5c04bd94036ed500783c143d8"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/pipe5_abi.h",
+      "bytes": 1322,
+      "sha256": "ab19cc7bffabab1eb0189c7fd62ab944ec0c9d5351d109bf30b7cdfd5a67d4f5"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/pipe5_control.c",
+      "bytes": 2805,
+      "sha256": "d3a03675514ba50758cc4b9cc57edb7488a3939049e8392ac39d56378e7e09e9"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/pipe5_control.h",
+      "bytes": 661,
+      "sha256": "caa225f32346f3d18e7050fb370d262246c788c797225062d0b8603198ade88b"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/pipe5_frame.inc",
+      "bytes": 1887,
+      "sha256": "2ec252f195b8d76f0b166fcdfe09acb219fd86a07668852582684b5ca3bdf7b1"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/pipe5_runtime.inc",
+      "bytes": 7240,
+      "sha256": "ca9fd8af9fa9ba0865b2eeaf31626dbd1552db0a21facdf5f87475206adcdd4e"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/pixels.c",
+      "bytes": 1786,
+      "sha256": "d3a7313155e924f2bea9e18c7f4c91b8c8812863873ac3f5e3707a877a203921"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/player.c",
+      "bytes": 9557,
+      "sha256": "a498021e3619ac26066be670be973c1b4ec75a08c61d9c4c86e84db4b2119799"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/player.h",
+      "bytes": 1334,
+      "sha256": "462d44a42a761cdb40618ec87b353519255fe46b6b2c2db8690b5fb1a9c053ac"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/remote_input.c",
+      "bytes": 1714,
+      "sha256": "ae239a0910a63849f73981a807a6be3cdff6b71c0abccdbeef50528893d0b40f"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/remote_input.h",
+      "bytes": 1018,
+      "sha256": "1f63b72c1889820bc2793f8fdf3b01f3b230e22cdc976d59aee2a831eb7abc04"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/render_queue.c",
+      "bytes": 2636,
+      "sha256": "27349698e5a1d6401ae7df2bd2d09597a2ad32459ddc9feff4bd8f6891a6b42a"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/render_queue.h",
+      "bytes": 1009,
+      "sha256": "79ccdc308239bc4300b733eb20625627e8f01b44d217e63b1cb394e180315ee8"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/replay.c",
+      "bytes": 5526,
+      "sha256": "96f4313370b1e289fc13740aacc08009daf595dad53c1ffd1e34ced4a0eb0e32"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/replay.h",
+      "bytes": 2108,
+      "sha256": "c269852af6ea9a8934e12605fc45d6f256cd8658f14f25ccecf1d8ceaaab9498"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/scene.c",
+      "bytes": 54401,
+      "sha256": "269e335d46026359b5d6fa85412f1a860b7363695b4d24d9c7647a71bb001d7c"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/scene.h",
+      "bytes": 2769,
+      "sha256": "27759ca096c5376e0d3fc8c3ad4dec0d2565da5f824e8b2be8cc3064858baccb"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/segment_diag.h",
+      "bytes": 3400,
+      "sha256": "41a0c6230786586e7cd84dcbf742dab38a11ec295584bcaa3da472993af56ab2"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/segment_diag_impl.inc",
+      "bytes": 4952,
+      "sha256": "52f439288d7bdf2f76544d75097de9bf066a80f684e3208d16f17ee275bab30d"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/segment_diag_report.inc",
+      "bytes": 3286,
+      "sha256": "7823bfd3340b01c8d68af9f0925bb1ea3f2277f3c4572c3d00a42400f4ece2d5"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/stage.c",
+      "bytes": 8792,
+      "sha256": "a198c27a4dbae1a40372ccc44a15b1b947a3581d3f05083e6c1ee65629c988f0"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/stage.h",
+      "bytes": 1068,
+      "sha256": "67055dfba5390a208b587d6e56819db562d72520ef10386c5e1be8a08aa55027"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/stage_data.h",
+      "bytes": 13768,
+      "sha256": "d1658848645dfc5ad2a16a23f1b1e27e9dfd11feb517905502e86f7e4698828b"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/start.S",
+      "bytes": 1846,
+      "sha256": "3a8f028d148ac94a9f91fe91071e2bc0cd35945c01072f369e927b01294acad6"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/tick_profile.c",
+      "bytes": 1836,
+      "sha256": "789fcf28080cfff53c60f5fe044975a00aea9696fe4de964025a513d37d2138f"
+    },
+    {
+      "path": "release/projects/touhou_LAB/src/tick_profile.h",
+      "bytes": 1745,
+      "sha256": "654204e7bfa94b7f1d53c3cc69428cd3967e604ec9cff18384cae777a181d250"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/bsp/efinix/EfxSapphireSoc/include/bsp.h",
+      "bytes": 5242,
+      "sha256": "4a8637319ae9918f771fcb394491109d80a59d0b4de3fe5ab7f44570e7cecb57"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/bsp/efinix/EfxSapphireSoc/include/compatibility.h",
+      "bytes": 2423,
+      "sha256": "51227bcfc49b1511b9802cefef07b0c9589b8c7e6206d8d84e410e4bf2a70eec"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/bsp/efinix/EfxSapphireSoc/include/freertosHalConfig.h",
+      "bytes": 879,
+      "sha256": "1a193b788b55e906041b9298f2f0fee1e7b77739351d0e0675eccecbe01b6315"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/bsp/efinix/EfxSapphireSoc/include/LICENSE.MD",
+      "bytes": 4079,
+      "sha256": "fcad259554a1118f297273bc2ae8805b07b066d297e1c3b9a6ac82d815add8dd"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/bsp/efinix/EfxSapphireSoc/include/print.h",
+      "bytes": 14357,
+      "sha256": "ecfae60245c1f3b4e11d5c9e093a3daeeb8f89e1ae4eb69c17ae6d7f36223852"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/bsp/efinix/EfxSapphireSoc/include/print_full.h",
+      "bytes": 50226,
+      "sha256": "64083154100c17f33b7a2f421388ec02c4072ec0f3509cf9e9097260534195ca"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/bsp/efinix/EfxSapphireSoc/include/semihosting.h",
+      "bytes": 6187,
+      "sha256": "854082d59b5396ffc8b8154e5568a3920ef957faa327895401f998ed69927226"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/bsp/efinix/EfxSapphireSoc/include/soc.dts",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/bsp/efinix/EfxSapphireSoc/include/soc.h",
+      "bytes": 3249,
+      "sha256": "d54a3f3c177313c8ac88a3bb7f7b1337b4555b8f181b3a55b83b1b52fa65bebf"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/bsp/efinix/EfxSapphireSoc/include/soc.mk",
+      "bytes": 253,
+      "sha256": "3641490e4d7b2a0eecb0f0c9661bd1a38831e8527f5f96d1a017510d5d0d2cf0"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/cpu0.yaml",
+      "bytes": 202,
+      "sha256": "047917680026bd877ccd9be3575fe7abf48f50954db7485b468d346e32f879f3"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/common/bsp.mk",
+      "bytes": 261,
+      "sha256": "b1cd52810f86a11e65e08fbacf1e8e1ea22b4c1e51812602d8f1fb5b449de082"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/common/riscv64-unknown-elf.mk",
+      "bytes": 938,
+      "sha256": "43d4fd4dcc5c6133df1e3b8e4e5b07b9dc978966ac57aaf36c20567e683ace01"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/common/smpFunc.S",
+      "bytes": 679,
+      "sha256": "39bdef6368c2438bfec53e2e208f53ba56fe1b56e99a01822a67941a716cee80"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/common/smpInit.S",
+      "bytes": 285,
+      "sha256": "0312618bbc02b4cf54945fa31ec2111f4a8c725ee15d3d4e004a82a78043e95a"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/common/standalone.mk",
+      "bytes": 1496,
+      "sha256": "05600b2cbe0fb0b9f2877123edeb237956536b144f9f49df21e5139f74c9747b"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/common/start.S",
+      "bytes": 1317,
+      "sha256": "1f766009dfadd1b2b7808433054e211cd78ff14ec1054af85a8a61b6b413b462"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/common/start_int.S",
+      "bytes": 872,
+      "sha256": "44a8891bcec0a8f4a6f3e6230fe1812c094817c13db9c4607cef6a980dcf48f4"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/common/trap.S",
+      "bytes": 783,
+      "sha256": "20affa68e66b099aa688884b13c182a49fd7f5be7df9b9ed80799c2a95d5f8e9"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/driver/apb3_cl.h",
+      "bytes": 4628,
+      "sha256": "7356a83e65134b4cafc27092381a29f0ea4beeb51b614a976558b6504a249e1b"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/driver/clint.h",
+      "bytes": 6069,
+      "sha256": "43bca7f578c070dfde36cd82b27701cf3a468925e23f4d1af3a5612cc1623a68"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/driver/DDRCali_i2c.h",
+      "bytes": 26917,
+      "sha256": "e9a3fa5a38830d0b108e98e931d05ed08753ccfda6f34b2a566868f3a33ce5f4"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/driver/device/emc1413.h",
+      "bytes": 31538,
+      "sha256": "856bbab97d08ae16b883ce1be2f0f2219aa12c3d66031564f2ae416d96db234e"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/driver/device/pcf8523.h",
+      "bytes": 32293,
+      "sha256": "2858d2104288c6b52bb8bb41171c54fe79c1e2466d6f904bcc707c2d31c63b16"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/driver/dmasg.h",
+      "bytes": 17985,
+      "sha256": "0d22adf3bb21f819ec9299a464d22e9beebd6c8f5b3a52967fc5807e200c2828"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/driver/efx_mmc_driver.h",
+      "bytes": 26841,
+      "sha256": "0974a9bcebf66e545df011c9be3fcc6a53c70c89bc0255f34808f02d8048ea5a"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/driver/efx_tse_mac.h",
+      "bytes": 11904,
+      "sha256": "3ebe162217b5b8ea3f3f4b6c8ad11fb57e60f5cd8bee359d58c62453968224cb"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/driver/efx_tse_phy.h",
+      "bytes": 5608,
+      "sha256": "f082f237571a37fca93605a68504b80b26fc96d519c12c5a4fe266f05bb76f91"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/driver/gpio.h",
+      "bytes": 6889,
+      "sha256": "ea3c2aafde8537595cfa9cbc9db005bbfd61b0c43b8e344afa84358221764b80"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/driver/i2c.h",
+      "bytes": 44534,
+      "sha256": "0e90a1e6366d104c4551d0938bc3397d354b3d2ccf0966a01fb934ae93f908eb"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/driver/io.h",
+      "bytes": 2501,
+      "sha256": "0cc5e1ca913329d844c5e5384198d099d446e43da53d59683071417a61cc84ba"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/driver/mmc.h",
+      "bytes": 12851,
+      "sha256": "e6babc7e44837983eed3de6eaca51912b0fafd20d8e1503c3f452f224e6797e7"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/driver/plic.h",
+      "bytes": 9189,
+      "sha256": "2bc52896036c782d154f706584268df91e9939289c676ffda985a4b2df3e296c"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/driver/prescaler.h",
+      "bytes": 1447,
+      "sha256": "467a0fe34fb0601033372cbf8c50c8522f09733a01b7bbee060eec98a9c29e6f"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/driver/riscv.h",
+      "bytes": 15664,
+      "sha256": "139261cff42e0a6abf45154a962afe93705769a6061eb416c261cf1e19063f02"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/driver/rtl8211fd.h",
+      "bytes": 3342,
+      "sha256": "867a6b495a95e3582c5384a76ad22ec0021160a82d09f4ccdd146bcec710fca4"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/driver/spi.h",
+      "bytes": 11197,
+      "sha256": "9ed8239f1b91da2d1f8587d690c8bfdae344f87e93eacaa986464c79cc42b8ae"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/driver/spiFlash.h",
+      "bytes": 36364,
+      "sha256": "691de6eef79ee94e91f9b696c102c93572e7c145c131c35c37b2e7bb2ff74cce"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/driver/start.h",
+      "bytes": 813,
+      "sha256": "f252b3951e1910a2b03352542a772b7b2eee112f06f39bc40764e1696eda2ba8"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/driver/timer.h",
+      "bytes": 3100,
+      "sha256": "d6c810e517ccf4fe5004f4ff35afe4f41b0a87497bd79c5474443bd38a5a5247"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/driver/type.h",
+      "bytes": 2339,
+      "sha256": "c773edf1098a6839853e1d5abb94c140d68b706fd507377ff985ea4a5639b70a"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/driver/uart.h",
+      "bytes": 11361,
+      "sha256": "05dfd0cf1df75a7a8dd6fd3df6f1dc89f0db99233a69b69dcb57da9cbcd58b24"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/driver/vexriscv.h",
+      "bytes": 1978,
+      "sha256": "8f4d897665fd497dbb4d34f61a8938081e27f8da257852ae692f924e8cd72e02"
+    },
+    {
+      "path": "release/projects/touhou_LAB/sw/software/standalone/driver/watchdog.h",
+      "bytes": 1574,
+      "sha256": "555bde4467768ef05f1a1cfd84665936307708976781c5825215ee86766d2f7f"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/adv60_model_equivalence.c",
+      "bytes": 2233,
+      "sha256": "111f6d3fdeb298742f465238ce4438b97eee6e7fb6b4d46ddff585547ab8882c"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/adv60_protocol_host.c",
+      "bytes": 1837,
+      "sha256": "70a9721e9569e952b3a69332138b3fda46cdd9497c71f2685d65610859a344c0"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/adv60_reference/adv_model.c",
+      "bytes": 5863,
+      "sha256": "1bfebe935850365c69c989b25fefed30a308c912dd875540061d0f83cbe52ff6"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/adv60_reference/adv_model.h",
+      "bytes": 807,
+      "sha256": "511434db9fcc31009e8f894dbd1fae7dc9fe06bffa86122a01eb7cafd1a18fbe"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/adv60b_fullpixel_host.c",
+      "bytes": 4309,
+      "sha256": "7456d61cac342f6a8d03b8999f2dae46adf3de04843e8b3f820665925d4ea7de"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/adv60c_fullpixel_host.c",
+      "bytes": 4676,
+      "sha256": "10859186504181d6dc5d0f050828b281cbc7a6896ab8bc78549e267ad849c3d5"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/adv_host.c",
+      "bytes": 9512,
+      "sha256": "052e62a7555650c99fd7feeb41f1ccb81734f06ce23aec1cbc780c86578e01b0"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/background/background_test.c",
+      "bytes": 1670,
+      "sha256": "ab8dd672e86b56cbd9a8a607d667f978e6b732bddb2e6e60b326e066c6c4f580"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/background/preview.c",
+      "bytes": 468,
+      "sha256": "148ede3c54e6efbd5423513f59668fdf5d211e5281489a90368684512deea673"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/background/README.txt",
+      "bytes": 1120,
+      "sha256": "1a46d9b0b05a19aeffdcd90f7740155d544dd7e5d8a8f8774fdaddcdda48e9cb"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/batch32_scene/host.c",
+      "bytes": 9821,
+      "sha256": "38536f2923bc827b695327d6259fb140f6badb49f6ff5eadb56fbba359533a29"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/batch32_scene/test.py",
+      "bytes": 3734,
+      "sha256": "a647ffb2064053efe22684dc2882c787bb5c04dea4487014701e21a9f565c3ca"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/battle_exact/host.c",
+      "bytes": 6756,
+      "sha256": "4f521a9ca2636251a02c94d0f806faed5d447db95804f414bc8e912043ee8b37"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/battle_exact/reference_battle_R7p1.c",
+      "bytes": 26514,
+      "sha256": "3c460e140be00ae7d7e62fd37ba68d659ff328c8cb6d364a64f1869ad5749d98"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/battle_exact/test.py",
+      "bytes": 2759,
+      "sha256": "8ba703d6b559ee805215aa9648381343b929fc2e2aeb3b41840b3da9ce2c7078"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/bullet_sizes/baseline8_pixels.json",
+      "bytes": 5012,
+      "sha256": "1eec7ca22add9c06ae8cba7c50faae9bab8a850132be6cc59122d989668b96d7"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/bullet_sizes/host.c",
+      "bytes": 7948,
+      "sha256": "fd206adee39fafa3ab7fb52f8711fc3205a7bf77c5a3edaf89a5099685709272"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/bullet_sizes/test.py",
+      "bytes": 3559,
+      "sha256": "57b22836606c1c403fc0d0c6dc4eefe4ca771d1cab0411832dec337ea3ef80d5"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/dodge_controls.c",
+      "bytes": 4191,
+      "sha256": "059ecc1d00e0eb8e1c6eae702e2b0eec035ebb62fc82d3182b5c271489ca1ba5"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/enemies_host.c",
+      "bytes": 7202,
+      "sha256": "5d6f870b7d5a18de61c6b83ea7a1c862222ad9a0ad6ba99c19578df8458e7ec8"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/expanded_battle.c",
+      "bytes": 6690,
+      "sha256": "f1bba06bb00fb8ab87d81930499a1e7a44d8fe343d181ba0a42d30fb3f9c6e43"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/font_equivalence/font_reference.c",
+      "bytes": 4355,
+      "sha256": "90763b0d1b2d7751aa755b3d5e373e7f32b65efa2a66f12e900956d0f87ba5d8"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/font_equivalence/font_reference_c285.c",
+      "bytes": 10837,
+      "sha256": "48a0650bbb1f025da9a6630365a25d127522ef255764c6102e845ea4fe61db4f"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/font_equivalence/README.txt",
+      "bytes": 1614,
+      "sha256": "ebe05b64164fe0d8f30bf055f25484d933af48f105566c4b6b9a0973d6c7e18b"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/font_equivalence/test_font.py",
+      "bytes": 5889,
+      "sha256": "a7a314c8facb6f0b28fe70b11c939bfcbecdb030452551c58c0af8f5145fc9e9"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/frame_clock_body.h",
+      "bytes": 4510,
+      "sha256": "ade27d42909cbfb2c116fdde3b8e9a508253dbb946f5a9f6d192d0e01cdb4d93"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/game_clock/reference_game_load_SIZE2.inc",
+      "bytes": 10307,
+      "sha256": "a3edd64a9e644a864571425cc0bc5a06b53553253e13582a6c07f5cffe746d97"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/game_clock/reference_game_SIZE2.c",
+      "bytes": 52848,
+      "sha256": "59af2d09585c7192c35ac2b5486ae320f2f4b0db42f29cac01ed69aa720aedd9"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/game_load_body.h",
+      "bytes": 10297,
+      "sha256": "5459c5587ff358c9abd462446bb488d271bbb0871f1b0ff1cba8a7d98d50cd40"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/host_scene_stubs.c",
+      "bytes": 549,
+      "sha256": "655bf46946cff901497b0688c4126d50f2d3a51ea24c229aa309535466a2185c"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/hud_compact/host.c",
+      "bytes": 2615,
+      "sha256": "51eb850913ecdbbe963f14a7d2ac6462620c5c4dd731c93c7ed545f00c598120"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/hud_compact/reference_scene.c",
+      "bytes": 21375,
+      "sha256": "774d584358ccb8102dd1998acab01f91f680624d18867e68e08152834f0a9e80"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/hud_compact/test.py",
+      "bytes": 4699,
+      "sha256": "fced3dd62f0d238952c675cf92a3b638a2c352fc37df1f4a029a645b078ea1d1"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/hud_delta/host.c",
+      "bytes": 2162,
+      "sha256": "a1636aae10756dcb0fe1f9d6be84be81d4914244d26334e68e32f49261e34e6b"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/hud_delta/README.md",
+      "bytes": 2350,
+      "sha256": "623dcdb2df28d6819dc20ee022a2eaf3214b2939c8f2a435df174d2bf3e59b1c"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/hud_delta/reference_scene.c",
+      "bytes": 49384,
+      "sha256": "1777f74bcf50b9f6d0988739055856cdeeba737008dd2086a3721837afb78fb6"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/hud_dirty_fast/host.c",
+      "bytes": 1335,
+      "sha256": "691c15e701af8131ba1ed26f15a88cc7c59480074462edd9475c468a22f664ec"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/hud_dirty_fast/test.py",
+      "bytes": 2674,
+      "sha256": "a895f1707afea3825895cc35a4d9eaf3ff7871059d0ed24f27a21e327c678cdd"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/hud_dma/host.c",
+      "bytes": 11361,
+      "sha256": "93cc664df071a397a3b68371511f26ce67c98a27bd3f7edab8192fa99da5feb9"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/hud_dma/reference_scene.c",
+      "bytes": 43904,
+      "sha256": "5ab7d81652cd45ac4bdfff64029c7860dddd205d47e698917ef64df2d67c3a0e"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/hud_dma/test.py",
+      "bytes": 5631,
+      "sha256": "7881126c577c6541b5e12ec0c1741198c89d33fb841c0f440dd66f29b2ccf105"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/hud_dma/test_runtime.py",
+      "bytes": 13403,
+      "sha256": "1b75469383252d5c159d64f07606c7b5c254b6e71f070c4e0d79105eecfefa7d"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/hud_frozen/probe.inc",
+      "bytes": 3119,
+      "sha256": "7e3d0357242817c21f906bb2ad4d3b1b8bd1850e23d4baa922a52538e2e8c6e9"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/hud_frozen/README.md",
+      "bytes": 2039,
+      "sha256": "fae4cce0e111903cea0328bd9c213c911243c3fbfe34bb9bfb2439fec599f354"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/hud_frozen/test.py",
+      "bytes": 8364,
+      "sha256": "4aa5ac66a023cf335f2cc9ca44586ef27005bd645d3866dc44a1d9ca4037c6e1"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/hud_overlap/host.c",
+      "bytes": 8312,
+      "sha256": "0233901f37da980c8b7297b39a4e4daf896d0537057c7020809458d945f76323"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/hud_overlap/reference_scene.c",
+      "bytes": 34031,
+      "sha256": "0288f7cc1ced616db16d46fb446c3752f59692dfcc92ffff2d9d0ca0cb9b7a95"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/hud_overlap/test.py",
+      "bytes": 4471,
+      "sha256": "0b8ee9ca7599d859b121478cb873869d6e0ece7ec82f237819f9ab10ec491068"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/hud_span/host.c",
+      "bytes": 8891,
+      "sha256": "3ecaf425ec14cd33f0d242453b4455f3acaadb956aafb81cd566bfb810d114f8"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/hud_span/reference_scene.c",
+      "bytes": 42429,
+      "sha256": "8a0a33541beafe26f36883dd8361e2bd9941617a3078da6f17c89ad70fcbb99b"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/hud_span/test.py",
+      "bytes": 5014,
+      "sha256": "2ad6b6ffc308fcaeac632dad4b21e09af3495bd3bdf5a9b9dafde8bb505c5f07"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/hudlite/run.py",
+      "bytes": 8028,
+      "sha256": "05429f50a25d6a6eb3edaa512d0ec8e67863a75775baa7f7453c20f4e580128d"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/lab_host.c",
+      "bytes": 9174,
+      "sha256": "401f03e3aa23ba84fce3d492c1b59be1bfe5e89b711fcf57118f693b200b16d5"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/lab_protocol.json",
+      "bytes": 2780,
+      "sha256": "3ec5f0ff43589d91da3d4d9b0e162a20f81425887eda6b49fcec3abf1fbd2b48"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/lab_stubs.h",
+      "bytes": 2108,
+      "sha256": "deaf397af63d4a1304235fb61dd6183fb45d848d950cad6e8a19c88bb355c1ad"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/labimg_host.c",
+      "bytes": 7856,
+      "sha256": "5fb56cc7204da0845ddb9e86a089d2abc9415c351cd40ab1eeb4e68091be565b"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/labx_host.c",
+      "bytes": 11137,
+      "sha256": "e140ff72dfb7ea397edc9f12a10c81ab0349641c7d46c2ba8b6fa424cfd6310f"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/layer_visuals/test_layer_visuals.c",
+      "bytes": 8371,
+      "sha256": "24b7dbe508f2d3f1df2db0318f307c33a9fdad93614c54692653f835dea3713b"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/motion_hw/backend.inc",
+      "bytes": 8249,
+      "sha256": "6179e7430dd521227e7c55c3f8aa7197863c54b95af52001649641cc20cc951e"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/motion_hw/reference_kernel.c",
+      "bytes": 15800,
+      "sha256": "120570b6968a423590e6e63c7d75381a7c7161bb6bfa7deb973ca80780f8014a"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/pc_controls_body.h",
+      "bytes": 5942,
+      "sha256": "2727d5e64571828bdc3cce77a8cc7d94b1d088bd929baa7c38f6f95b39963c8a"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/phase_gameplay.c",
+      "bytes": 18630,
+      "sha256": "17c0a86dec620ae2a7f8fd4e5760ef9fec0b7ad46811267d412e45aae5490b90"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/pipe5/backend.inc",
+      "bytes": 10459,
+      "sha256": "5e343ca227064383a83a71159ee5125d1676c15d530e25a2d382173a1a9674d1"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/pipe5_game_stubs.h",
+      "bytes": 806,
+      "sha256": "5c5800e8443eafadcfe0563a5cbaae33e62cd84e1ef10fa841017f74e3e1662e"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/preflight_driver/host.c",
+      "bytes": 12195,
+      "sha256": "08739e8ebab5ce4eb1650f6fbb9e0e8cfe50b6d62682809a99f5c95ebd1fb794"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/r2_core.c",
+      "bytes": 8488,
+      "sha256": "4e90ebc553b44ace02ffa7507b5003661739bc87e12963b65a5e894c64bb7a66"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/r2_render/effects_budget.c",
+      "bytes": 3457,
+      "sha256": "9b42f3cd37e5adaef4b426d11120fe0b9244a0aa122f8256d58ed9b15515a259"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/r2_render/hud_host.c",
+      "bytes": 1261,
+      "sha256": "3ab3115fe7bdd061c075748dfdf7951c6dacd1a2e4fb6401288124456392200b"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/r2_render/README.txt",
+      "bytes": 899,
+      "sha256": "b636d286f632c7f4556b09243b990e4febe6a8e050598b8a590fba95b24133d5"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/r2_render/test_render.py",
+      "bytes": 2770,
+      "sha256": "60844e578194bcdb095c13637b9ff854aa67a7e3f7681316a9d0e7a5760b495d"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/r6_integration_body.h",
+      "bytes": 4990,
+      "sha256": "4938314b492a23997ce13f4bfdf272d570813a75d8e26c422e8113a3dce6b215"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/r7_render_integration_body.h",
+      "bytes": 7926,
+      "sha256": "46ff56f71a8ab3bf7a480e0b04f00ee10e23fc76745ab00b5164f81d549fb32c"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/remote_input_host.c",
+      "bytes": 2581,
+      "sha256": "ba9b6d7a872c712a4cc7aa62aab66e760b6ba6038c68e0d275fffcfea76545cd"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/render_budget/test.c",
+      "bytes": 6670,
+      "sha256": "887fc091409c9065bcf43759c80d554498c7385cf08de609ed44325ab6caec4a"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/render_queue/guards.c",
+      "bytes": 1708,
+      "sha256": "01a4624691375a0fdb73b77ea3cb1a341b29e6d27472d97afac18a610ed1a0dd"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/render_queue/host.c",
+      "bytes": 4398,
+      "sha256": "2e27f459379ea3241d90ef4fde0c670cf2628ad410567430ea4a88a81b05b56d"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/render_queue/queue.c",
+      "bytes": 2525,
+      "sha256": "9d9834d30f692513f8d7a64e669d502014585a2157e78a7f504afa684dcb122e"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/render_queue/test.py",
+      "bytes": 3538,
+      "sha256": "c34def0254f417acc8f8ff80807d7ca209a831efacab4359d9191c85b75e0b7a"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/replay_game_body.h",
+      "bytes": 5176,
+      "sha256": "d2d23b975355f6d3e4167d2494cc9698079b4bc98d134233384e4adf1b1034e3"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/replay_protocol.c",
+      "bytes": 3150,
+      "sha256": "4c6bda1aed33a92e087ac3553f71798ee663ad0b4426664eb5280ab71bdb353a"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/review_render_regression/effect_drop_repro.c",
+      "bytes": 16401,
+      "sha256": "995e06f086631205bf809a7c61b437f9789eb33e41dd0cc60c72d8f422db6058"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/review_render_regression/render_border_repro.c",
+      "bytes": 6732,
+      "sha256": "beb716c788c1308e66dd4a5096821b56ecd0e60d515eeb8b370b8e4120e9c792"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/runtime_cli_body.h",
+      "bytes": 6646,
+      "sha256": "0f0145781b14d84c4d38dcc642851f63a6186ed202cee3e947b21bf917837be5"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/scene_layers_stubs.h",
+      "bytes": 821,
+      "sha256": "b261f17c53446b51a7d9ae85f8fbabc18b959d1483cfcc485344084789d60112"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/stress_gather_equivalence/proof.c",
+      "bytes": 3979,
+      "sha256": "c5c904eedbca682b9d91bd5c039699211d3056ccb1e6033d573da0d40075df72"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/stress_gather_equivalence/README.md",
+      "bytes": 1189,
+      "sha256": "88c2cd18dd36df07f3e542656399bf4d75fbf61b90b48ef08d32b6d4074dcf05"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/stress_gather_equivalence/reference_stage_R2.c",
+      "bytes": 6671,
+      "sha256": "ef97751dab8394b71fe8e155acc6a503740abfc8c4c54c03a72319c32e16511c"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/stress_pipeline_body.h",
+      "bytes": 3611,
+      "sha256": "817e05c5f956c5ff983df2f7c7b630ad76ad6b1c91e211a883f1c9ed5003cf19"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/stress_snapshot.c",
+      "bytes": 3584,
+      "sha256": "add38a918596cbd7b0cf08d190f71ebbba9a641a0b6e0cc63c18b02964d1d782"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/stub/bsp.h",
+      "bytes": 289,
+      "sha256": "eec9aac0745f844c158de52e174dc834794b18ca02fe9717915c2d992821e760"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/stub/gpio.h",
+      "bytes": 142,
+      "sha256": "84f8656966a33b67352320848c029844bfa6d760079e9e2b921226c1db926131"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/stub/riscv.h",
+      "bytes": 64,
+      "sha256": "7a8df9e1a81fe47834e382ee0d18616b229bc6f24026a47e461d17a2ed9c9e95"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/telemetry_counter_body.h",
+      "bytes": 4338,
+      "sha256": "13a6c261651534bcf53a072b2a516d80d61f25ec5d40b0eea9142c21fcc57021"
+    },
+    {
+      "path": "release/projects/touhou_LAB/tests/terminal_render.c",
+      "bytes": 8886,
+      "sha256": "422d99ca534c37f5b4417f2abaca3a4800e295765f00de210375795b221974bf"
+    },
+    {
+      "path": "release/reference/baseline_input_pins.json",
+      "bytes": 15369,
+      "sha256": "81b9e2899ad3dd50d4ff2e9bb0767fff255b1e1cd5e5e813a206a546d3e53ba4"
+    },
+    {
+      "path": "release/reference/baseline_project.xml",
+      "bytes": 12355,
+      "sha256": "78c481f0201d355228274ba07a20911a80a3f45b83fe32c3efb520f1133a5243"
+    },
+    {
+      "path": "release/reference/baseline_timing_scope.json",
+      "bytes": 5345,
+      "sha256": "fc11488ffca208c7238830341c37dd56da8418c5bc8a9ac0156813ad108d2989"
+    },
+    {
+      "path": "release/reference/efinity_tool_pins.json",
+      "bytes": 1044,
+      "sha256": "6b72264b024d90e40edc03e64f35041ae76119b71f972cbb7fe4b0fc9aca5632"
+    },
+    {
+      "path": "release/release_request.json",
+      "bytes": 1272,
+      "sha256": "042c2700b61a99521a4f39b7efd8ec1a4026f3402dc49f96453cd6f7b1172926"
+    },
+    {
+      "path": "release/rv32_cache_audit.py",
+      "bytes": 3624,
+      "sha256": "7c05b4c526a658f8c188638ef2447fdbea171d377122b0a8cc7cc89de465f905"
+    },
+    {
+      "path": "release/stage1.ld",
+      "bytes": 207,
+      "sha256": "83bcc694023b5e3708e8e269c7aed53c8e063bca86147dbd72dd96ada751ce57"
+    },
+    {
+      "path": "release/stage2.ld",
+      "bytes": 491,
+      "sha256": "ed629919028888c1c2ec13f6c937819d3cb565ae5a3d9ea13b78f80059feb195"
+    },
+    {
+      "path": "release/stage2_start.S",
+      "bytes": 384,
+      "sha256": "46eeeb2a5e139191f9860ec5c811af553cff11751369ca261510da61c676c711"
+    },
+    {
+      "path": "release/START_MENU.py",
+      "bytes": 1961,
+      "sha256": "978ed9441b27067c2235ec32dcd8e74f5cf4f281a129ca412da77a2a654d927b"
+    },
+    {
+      "path": "release/test_flash_guards.py",
+      "bytes": 4296,
+      "sha256": "cd1799a7cbea435f43efa5066d36c2c9d0b8e0a5cdc45c50ac334347f5b19c21"
+    },
+    {
+      "path": "release/test_persist.py",
+      "bytes": 4610,
+      "sha256": "fc561fb8b95d4f7d5faf295c0b8a6722f7f4d87873b10a6a4df10fa9ace85f81"
+    },
+    {
+      "path": "release/tools/capture_uart.py",
+      "bytes": 2032,
+      "sha256": "e02e829308cda871dff06343c0ac174d03aa2fe7e68c45ec4408c0d6d686309f"
+    },
+    {
+      "path": "release/tools/cold_boot_monitor.py",
+      "bytes": 3052,
+      "sha256": "60d1cfd65779989c888acfccbeb9ca6be3f505061eb3cbf49fb61cffbbf2d92e"
+    },
+    {
+      "path": "release/tools/flash_device.py",
+      "bytes": 18818,
+      "sha256": "e01b153fb22dcbe70aecc2e780d484541ad776457e3e267b34c01f2d3196e445"
+    },
+    {
+      "path": "release/tools/local_paths.json",
+      "bytes": 344,
+      "sha256": "51067d41f8cdb77c1e6c68137f8f623a89192562919d0f1aa8fe525d72a3b4a2"
+    },
+    {
+      "path": "release/tools/persistent_profile.py",
+      "bytes": 23008,
+      "sha256": "060e9a56b5ee3f201512af9a3dec52dc2991cfb41f0a1000df640ef31c17f223"
+    },
+    {
+      "path": "release/tools/probe_jedec.py",
+      "bytes": 2210,
+      "sha256": "6ee1ad13eb82640a9f6a8d6158baed45695bc2d9385f6ec8ed3361e83488ff83"
+    },
+    {
+      "path": "START_WORKBENCH.cmd",
+      "bytes": 132,
+      "sha256": "7ac2f4b35543b84dee4eeb531f24ad2356503d891f786fc6430154a8706abc08"
+    },
+    {
+      "path": "START_WORKBENCH.sh",
+      "bytes": 128,
+      "sha256": "3edbff947cfd130add0732fadae9e703ffe1fce7f78bbe47c0c173de0e0277a3"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "bytes": 302,
+      "sha256": "8846a13f10b160749e2122ea8db3d36efa44137e68b99edbc2b02437f831caf5"
+    },
+    {
+      "path": "VERIFICATION_SUMMARY.json",
+      "bytes": 813,
+      "sha256": "3676a7ab37a05e7797280f2b42b5d0f4bc3e0faf945de1c83ed090e9e83ef53a"
+    },
+    {
+      "path": "workbench/adv_panel.py",
+      "bytes": 43914,
+      "sha256": "b5ecab4d8b0957a2eb2e111473e5bbfee62e127d2dc1face1e0c124ac14f1c14"
+    },
+    {
+      "path": "workbench/adv_protocol.py",
+      "bytes": 17439,
+      "sha256": "17d6b44041754b17ec88cc4360a0aab1738fcd2137807832bb569eea8c2246ed"
+    },
+    {
+      "path": "workbench/bootstrap.py",
+      "bytes": 2937,
+      "sha256": "cae93ad2ed455797fb74d6f1e1eb7021ab02a63bf400e207600fe7dcb87f6532"
+    },
+    {
+      "path": "workbench/build_windows.py",
+      "bytes": 3817,
+      "sha256": "388ba547ad6be7ccc44a5cb26e345dbe6ebac299f054ef479c66c2e17baa9fa5"
+    },
+    {
+      "path": "workbench/control_core.py",
+      "bytes": 46866,
+      "sha256": "bbf939571e9f4edbb808ea7d39bebbddd07a74df4b518c099bf3b870f319df02"
+    },
+    {
+      "path": "workbench/download_panel.py",
+      "bytes": 10910,
+      "sha256": "b298fc73f1f84bc74e79444af674fcee02c8e121d952a836fb865f5b78637a07"
+    },
+    {
+      "path": "workbench/download_progress.py",
+      "bytes": 5110,
+      "sha256": "45a4688d59178eb6199d03c28dfbc03ad79195d3d06ad968be6dfec8c0e5cdd3"
+    },
+    {
+      "path": "workbench/engineering_policy.py",
+      "bytes": 5013,
+      "sha256": "7d8ce5c1d34319f5d0fb896e4b83867babdb00f44b98a3b5ced5f39f6885a565"
+    },
+    {
+      "path": "workbench/evidence/reanalyse_game_load.py",
+      "bytes": 23492,
+      "sha256": "ba3af90c6c2ef7945ee0e63ea0dbdda9594e07ba9dd8d8a905ed52c4ece1b5a4"
+    },
+    {
+      "path": "workbench/game_actions.py",
+      "bytes": 16571,
+      "sha256": "8a812973350ea075c217f5b9ff54308addbef8797ef3e1049e61f576ce6a8768"
+    },
+    {
+      "path": "workbench/game_load_panel.py",
+      "bytes": 26305,
+      "sha256": "b933bd4eb2efa2ecaf43ca9da4d7fed2abf858399bc9ca50d0db237ffe196b47"
+    },
+    {
+      "path": "workbench/game_load_protocol.py",
+      "bytes": 15784,
+      "sha256": "f22326a4e9feba6ba516dd19eb671cbb1d7e868eddc269fb1762d08b1f3c0f36"
+    },
+    {
+      "path": "workbench/hardware_gate.py",
+      "bytes": 16104,
+      "sha256": "29d4c053205faa2cb3394b8023592ae7f2ad77784e6224b9bf0799ed9ff07dcd"
+    },
+    {
+      "path": "workbench/image_assets.py",
+      "bytes": 4766,
+      "sha256": "93cdc37b4ff3e903c890c27721ea9631610d6f82a1458f939b484860fd28a84f"
+    },
+    {
+      "path": "workbench/image_protocol.py",
+      "bytes": 4371,
+      "sha256": "30091918dddc2300e43330e54094bef12a4aea5cc674950e6609b635e52af52d"
+    },
+    {
+      "path": "workbench/image_workflow.py",
+      "bytes": 6189,
+      "sha256": "b4e92de8349c077984498bcaba1722c7f1be30ea5f61ff58210e82fcd14eab9b"
+    },
+    {
+      "path": "workbench/lab_panel.py",
+      "bytes": 37129,
+      "sha256": "f608d86cbe2690bc584b7a1ce47fbbe3257c0484665639bae0e87aa61f46fc42"
+    },
+    {
+      "path": "workbench/labx_panel.py",
+      "bytes": 29479,
+      "sha256": "9b326bc352c3d5cf6224d35fd27720b5a5d45b65fcd50e7546a434de3e5f9600"
+    },
+    {
+      "path": "workbench/labx_protocol.py",
+      "bytes": 13021,
+      "sha256": "a4316435033809fcdfa135f372bbd26e32c861c7d1c5f580f43c780a1265f73f"
+    },
+    {
+      "path": "workbench/main.py",
+      "bytes": 69722,
+      "sha256": "2850909e6ce80f86571f4e3339a4bfe5439763906b5b80e59e3be9aacf854f73"
+    },
+    {
+      "path": "workbench/performance_cases.py",
+      "bytes": 1172,
+      "sha256": "36ec60757a55794e991ec023a43416afc7bfc067a89d5d82c2674e2d75899005"
+    },
+    {
+      "path": "workbench/persistent_profile.py",
+      "bytes": 23008,
+      "sha256": "060e9a56b5ee3f201512af9a3dec52dc2991cfb41f0a1000df640ef31c17f223"
+    },
+    {
+      "path": "workbench/pipeline_evidence.py",
+      "bytes": 10111,
+      "sha256": "63d72b7d7805d5696d099ac4997f5331efa18101ef049489377708c1ad6d489b"
+    },
+    {
+      "path": "workbench/requirements.txt",
+      "bytes": 196,
+      "sha256": "69b1f3fc2a4929f0814fcd4c3aa42ad9e8809639f99f069c0d589e4c90cfd6f2"
+    },
+    {
+      "path": "workbench/tests/firmware_paths.py",
+      "bytes": 399,
+      "sha256": "1f66188ec422f03f6fa17784f82733ec5bdedb0fc26e3efd5bec8e1e16026d94"
+    },
+    {
+      "path": "workbench/tests/fixtures/hud_policy1_complete.log",
+      "bytes": 1426,
+      "sha256": "a8c481c9a52fbf433f64cf4df02586cf5da4f5cf9800ea9b78429ecb4aa8605a"
+    },
+    {
+      "path": "workbench/tests/fixtures/pipe5_independent_wires.json",
+      "bytes": 45880,
+      "sha256": "b38b04fb7b6082705e500f919f9708ccd49dd755541f8a4ec658a2b264790a89"
+    },
+    {
+      "path": "workbench/tests/live_download_acceptance.py",
+      "bytes": 2225,
+      "sha256": "d88b5a38d8d67230e9a4b7d7883922adf6e8bb684410164c4a9cbadbe31af412"
+    },
+    {
+      "path": "workbench/tests/live_scenarios_acceptance.py",
+      "bytes": 4275,
+      "sha256": "72c57598f664d99d9eb1f8dfb8c914425c06566ee7b81337575c3704d813c747"
+    },
+    {
+      "path": "workbench/tests/test_adv_protocol.py",
+      "bytes": 7263,
+      "sha256": "600968a4a6d8b4bc11ca28c59354047d291e13ffe81adbf27a8757b70d9a5648"
+    },
+    {
+      "path": "workbench/tests/test_adv_ui.py",
+      "bytes": 17985,
+      "sha256": "6085a6def32db5b43a9ce3b6e14d76c4bc254b710ae5b9cfbac10bd3bc412414"
+    },
+    {
+      "path": "workbench/tests/test_bundle_platform_routing.py",
+      "bytes": 4725,
+      "sha256": "d7725af092ca370d4076808134712a2e1ec1f3faf941b0debda428cacb2a9cae"
+    },
+    {
+      "path": "workbench/tests/test_bundle_routing.py",
+      "bytes": 5708,
+      "sha256": "68fa862836c87c2ee730eb9da5cbcfbe717108de1672e9d6a1fa1e2091a4c699"
+    },
+    {
+      "path": "workbench/tests/test_core.py",
+      "bytes": 9946,
+      "sha256": "5d379b4f5d8ee05d2aeeb2306f04dbd5beb3ca0f32e4e76fc43b968c165c7f24"
+    },
+    {
+      "path": "workbench/tests/test_download_panel.py",
+      "bytes": 11097,
+      "sha256": "eb3df1ef3126d18d841910dfd94fa933549d1642269329ecc4c51161fb90acd2"
+    },
+    {
+      "path": "workbench/tests/test_download_progress.py",
+      "bytes": 6528,
+      "sha256": "9f8805c92c466dfb15cf10730a837b2a6a00837a06760bc3b81ff959bdd19d80"
+    },
+    {
+      "path": "workbench/tests/test_engineering_long_policy.py",
+      "bytes": 10385,
+      "sha256": "1291bd95988ad0ff49404cab296251bf30e441f1c03c44d5b2160fc09f58339a"
+    },
+    {
+      "path": "workbench/tests/test_game_actions.py",
+      "bytes": 10756,
+      "sha256": "5f4b9d737b7d2d7c68bcb368257ac18ca7bab75d9fda8cdf8c8c4b0c4a22cd29"
+    },
+    {
+      "path": "workbench/tests/test_game_load.py",
+      "bytes": 24638,
+      "sha256": "5ea8f7fcbaf16763a0591df15415aea2ac9bd2ca8698404c37d1bd1ffb0ef90f"
+    },
+    {
+      "path": "workbench/tests/test_game_load_hud_policy.py",
+      "bytes": 9358,
+      "sha256": "5859d2510fd5d039c407f0175ea3e24ba4e188c471e6a17a8f5ea825b4180e82"
+    },
+    {
+      "path": "workbench/tests/test_game_load_input_guard.py",
+      "bytes": 7009,
+      "sha256": "70984c1683f2dc1c14e5bd9ee1e1d2f4b866a62ff4ec4aa5fe86f0e32960a45b"
+    },
+    {
+      "path": "workbench/tests/test_game_targets.py",
+      "bytes": 3301,
+      "sha256": "63f673202492fd7c8c75f33cb97af8d55615810abee677f63f817af0ae7edadf"
+    },
+    {
+      "path": "workbench/tests/test_hud_dma_policy.py",
+      "bytes": 5494,
+      "sha256": "d0af33f09e70eedc637c2698d4235193060c6808d1a6982877bfaeb80f0e3a9b"
+    },
+    {
+      "path": "workbench/tests/test_hud_policy_native.py",
+      "bytes": 3232,
+      "sha256": "e182805c8bb00c7d6a5208030e0424f9e217cde1c112cf80ee8a758e30fdbe9e"
+    },
+    {
+      "path": "workbench/tests/test_image_import.py",
+      "bytes": 18160,
+      "sha256": "e4b1a6cd57a09b02f1dea36ad3ed6b8a5bab5692a811049bb19328e57545a9a6"
+    },
+    {
+      "path": "workbench/tests/test_image_protocol.py",
+      "bytes": 4613,
+      "sha256": "9378b2f0a6d5d2358bcec52228c0ce06e9c2407997e7d41aac9799187310e772"
+    },
+    {
+      "path": "workbench/tests/test_independent_pipeline_regressions.py",
+      "bytes": 1973,
+      "sha256": "b3f71d9c741a16a3de2f671cceef4f94d480086d55e1a17b20c1db5a917cc1f2"
+    },
+    {
+      "path": "workbench/tests/test_integration.py",
+      "bytes": 12561,
+      "sha256": "2ede0890d60d3b3883b124abf1ad8926c90d29544460e12fd17ee84a2b8fbd7d"
+    },
+    {
+      "path": "workbench/tests/test_lab_panel.py",
+      "bytes": 13870,
+      "sha256": "ff95c44fca87eb2baa4b3f7615d7fe126a05091ac9723c4a1e5b5419d2603279"
+    },
+    {
+      "path": "workbench/tests/test_labx_panel.py",
+      "bytes": 7142,
+      "sha256": "1d80dc6fb1be921c0198ae498a919d6283143504ffacd2d7c3ddb1faebd78d62"
+    },
+    {
+      "path": "workbench/tests/test_labx_protocol.py",
+      "bytes": 6780,
+      "sha256": "95dc1a3ff99b2b225f46ce392c570c8fdf483d6bafe261302c47338f2479b121"
+    },
+    {
+      "path": "workbench/tests/test_performance60.py",
+      "bytes": 11150,
+      "sha256": "5406ead1d838956f201c1d5fc2d5a6590d043ac331a3df96ba31908c5d1f7f7c"
+    },
+    {
+      "path": "workbench/tests/test_performance_path.py",
+      "bytes": 6443,
+      "sha256": "9c688a018a9cc44b18d79dec458bfa8a29c693b2d18ddab080d206264ff2b64f"
+    },
+    {
+      "path": "workbench/tests/test_performance_rowrun.py",
+      "bytes": 3659,
+      "sha256": "f41f8cc7fe3da90885ea49936951f9a917f63011e1e03e10f5448b1ef17ba9ff"
+    },
+    {
+      "path": "workbench/tests/test_persistent_entry.py",
+      "bytes": 5979,
+      "sha256": "e77b3a4241435c9a7c42a2634d00bca7578276fc7a84230ba06615b22a69259d"
+    },
+    {
+      "path": "workbench/tests/test_persistent_profile.py",
+      "bytes": 16804,
+      "sha256": "b893ad8f2efd5c8a025c44caca20455201500f5f3e451a002a0e56dd5835acf8"
+    },
+    {
+      "path": "workbench/tests/test_pipe5_source_policy.py",
+      "bytes": 2875,
+      "sha256": "e01e62c04342359b4d702deb7198ce992cc715fe42aa08307f3cf747cb8dbba2"
+    },
+    {
+      "path": "workbench/tests/test_pipeline_evidence.py",
+      "bytes": 11383,
+      "sha256": "0289e60db08ebb9a875ea07ef829b3e3100f669f2184b2620ca7340db6247ef4"
+    },
+    {
+      "path": "workbench/tests/test_protocol_v2.py",
+      "bytes": 12527,
+      "sha256": "e29cf90ac1af49a112b5dade8ddbe0936faae2aa3ded545e07f6ee820cb2da7d"
+    },
+    {
+      "path": "workbench/tests/test_ui.py",
+      "bytes": 16398,
+      "sha256": "c57dfe31cebcac67ddca900990046bc568dedaab051ae94bd2a39ff9a63df0c9"
+    },
+    {
+      "path": "workbench/tests/test_ui_v21.py",
+      "bytes": 17205,
+      "sha256": "af5b7243f146a7590b4fce517a458edca9ef248c573c76467b8247627c4de643"
+    },
+    {
+      "path": "workbench/tests/test_ui_v22.py",
+      "bytes": 3847,
+      "sha256": "c95d642834d9b6cde143f7da2e6b94dfafd3549ded241202ca0376b6c7f426a8"
+    },
+    {
+      "path": "workbench/tests/test_ui_v23.py",
+      "bytes": 7009,
+      "sha256": "22236b376beb52d7a4d5329af175585cbbe07b94b2fff3ad8845de0a6c84c722"
+    },
+    {
+      "path": "workbench/ui_projects.py",
+      "bytes": 570,
+      "sha256": "b87d8f0b940a97ece41ac833c2ce1469556493c6f8974c3b53540d7b59e01db2"
+    }
+  ]
+}

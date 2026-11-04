@@ -1,0 +1,9 @@
+{
+  "scope": "Participant identity and private local data removed. Upstream license/copyright notices retained.",
+  "participant_identifier_findings": [],
+  "private_logs_accounts_user_paths_included": false,
+  "original_projects_modified": false,
+  "archive_owner_permissions_or_absolute_paths_requested": false,
+  "file_times": "uniform neutral timestamp",
+  "functional_testing": "STOPPED_BY_USER_REQUEST"
+}
