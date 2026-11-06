@@ -8,8 +8,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 9093,
-      "sha256": "a4bb50501cfbd16d1868f03c4fd6c0fbbf8589c2d07bdffc22eff964322bf62c"
+      "bytes": 8547,
+      "sha256": "0516ba305f264a6b34268e2e18259512804860fbb0d5d14d12ee20a4d06ceb85"
     },
     {
       "path": "release/build_persist.py",

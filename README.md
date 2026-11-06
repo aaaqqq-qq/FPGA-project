@@ -138,12 +138,3 @@ python scripts/verify_all.py --host-cc "C:/Toolchains/host/bin/gcc.exe" --toolch
 - 本次源码封包未重新综合、布局布线或进行新的板端复测。核验状态详见根目录 `VERIFICATION_SUMMARY.json`。
 
 `docs/` 中保留开发过程材料。关于本次提交的范围与状态，请优先阅读本说明和 `VERIFICATION_SUMMARY.json`。
-
-## 六、文件完整性、匿名化与第三方声明
-
-- `FILE_MANIFEST.json` 记录提交文件的相对路径、长度和 SHA256。清单不记录自身；本次 README 更新已同步修改对应校验值。
-- 源码包移除了参赛者姓名、学校、个人账号、个人用户目录、个人会话和设备实例等信息。目录与工具路径采用相对路径、环境变量或中性示例。
-- 第三方代码的版权和许可证声明保留，说明见 `THIRD_PARTY_NOTICES.txt`。
-- 测试目录中的固定回包用于主机测试，应与真实板端测量日志区分。
-
-赛事平台上传的 RAR 代码附件与本 GitHub 仓库分别提供材料下载入口。
